@@ -604,6 +604,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GRE_Alignment
 		}
+		prerequisite = {
+			focus = GRE_Romania
+		}
+		prerequisite = {
+			focus = GRE_Turk
+		}
 		mutually_exclusive = {
 			focus = GRE_Dorito
 			focus = GRE_Ice
