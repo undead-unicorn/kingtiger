@@ -65,7 +65,7 @@ music = {
 # Axis Peace:
 music = {
 	name = "axis_peace_1"
-	file = "axis_peace_krakow.ogg"
+	file = "party_rock.ogg"
 	volume = 0.65
 }
 music = {
