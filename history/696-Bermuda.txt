@@ -1,0 +1,27 @@
+state={
+	id=696
+	name="STATE_696"
+	manpower=37516
+	state_category = small_island
+
+	history={
+		owner = SKB
+		victory_points = {
+			13010 1
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 5
+			fuel_silo = 1
+			air_base = 1
+			13010 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		13010 
+	}
+}
