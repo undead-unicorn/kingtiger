@@ -1,0 +1,19 @@
+focus_tree = {
+	id = New_file
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	focus = {
+		id = help
+		icon = GFX_focus_jap_strike_south
+		cost = 10.00
+		x = 3
+		y = 0
+
+	}
+}

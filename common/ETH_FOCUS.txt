@@ -1,0 +1,548 @@
+focus_tree = {
+	id = ETH_FOCUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ETH
+		}
+	}
+	default = no
+
+	continuous_focus_position = { x = 70 y = 2000 }
+	
+	focus = {
+		id = ETH_OOG_BOOG_1
+		icon = GFX_focus_AST_rats_tobruk
+		cost = 10.00
+		x = 5
+		y = 0
+            completion_reward = {random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 3
+    			add_building_construction = {
+                    			type = industrial_complex
+                    			level = 3
+                    			instant_build = yes
+                } }
+	} }
+	focus = {
+		id = ETH_Defeat_Italy
+		icon = GFX_focus_generic_italy_first
+		cost = 10.00
+		x = 7
+		y = 0
+		    completion_reward = {random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 5
+    			add_building_construction = {
+                    			type = arms_factory
+                    			level = 5
+                    			instant_build = yes
+                } }
+            	{add_manpower 500000
+            	{add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 50000
+            } }
+	} }
+	focus = {
+		id = ETH_rape1
+		icon = GFX_focus_mex_support_general_cedillo
+		cost = 30.00
+		x = 2
+		y = 0
+		available = { has_war_with = ITA } 
+		completion_reward = {
+				add_manpower = 50
+	} }
+	focus = {
+		id = ETH_placeholder4
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = ETH_rape1
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = ETH_placeholder2
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = ETH_rape1
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = ETH_placeholder3
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = ETH_rape1
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = ETH_placeholder1
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = ETH_rape1
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = ETH_OOG_BOOG_2
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 5.00
+		prerequisite = {
+			focus = ETH_OOG_BOOG_1
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+				ITA = { add_manpower = -10000
+				}
+				271 = { add_building_construction = {
+                            type = bunker
+                            level = 3
+                            province = 5010
+                            instant_build = yes
+                        } 
+				271 = { add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 5097
+                            instant_build = yes
+                        } 
+				271 = { add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 1984
+                            instant_build = yes
+                        } 
+				271 = { add_building_construction = {
+                            type = bunker
+                            level = 2
+                            province = 7980
+                            instant_build = yes
+                        } 
+	} } } } } }
+	focus = {
+		id = ETH_rape
+		icon = GFX_focus_hun_assassinate_horthy
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Defeat_Italy
+		}
+		prerequisite = {
+			focus = ETH_OOG_BOOG_2
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+		add_manpower = 50000
+				ITA = { add_manpower = -50000
+				}
+
+	} }
+	focus = {
+		id = ETH_Watermelon
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_rape
+		}
+		x = 1
+		y = 3
+		completion_reward = {
+		random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 3
+    			add_building_construction = {
+                    			type = industrial_complex
+                    			level = 3
+                    			instant_build = yes
+                } }
+	}}
+	focus = {
+		id = ETH_Chicken_Factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_rape
+		}
+		x = 3
+		y = 3
+		completion_reward = {random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+								type = arms_factory
+								level = 3
+								instant_build = yes
+				} }
+	} }
+	focus = {
+		id = ETH_Beat_Spaghet
+		icon = GFX_focus_ger_assassinate_mussolini
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_rape
+		}
+		x = 6
+		y = 3
+		available = { controls_state = 550 controls_state = 559 }
+		completion_reward = {
+		transfer_state = 550
+		transfer_state = 559
+		add_state_core = 550
+		add_state_core = 559
+		white_peace = ITA
+                }
+ }
+	focus = {
+		id = ETH_Subjugate
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Beat_Spaghet
+		}
+		mutually_exclusive = {
+			focus = ETH_Aggressive
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+		transfer_state = 269
+		transfer_state = 549
+		transfer_state = 547
+		add_state_core = 269
+		add_state_core = 549
+		add_state_core = 547
+		ENG = { puppet = ETH } 
+		BEL = { transfer_state = 548}
+	} }
+	focus = {
+		id = ETH_Aggressive
+		icon = GFX_focus_attack_britain
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Beat_Spaghet
+		}
+		mutually_exclusive = {
+			focus = ETH_Subjugate
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+		transfer_state = 549
+		transfer_state = 558
+		add_state_core = 549
+		add_state_core = 558
+	} }
+	focus = {
+		id = ETH_We_Wuz
+		icon = GFX_focus_eng_god_save_the_king
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Aggressive
+			focus = ETH_Subjugate
+		}
+		x = 6
+		y = 5
+		completion_reward = { 
+		transfer_state = 551
+		transfer_state = 767
+		transfer_state = 456
+		transfer_state = 457
+		transfer_state = 552
+		transfer_state = 452
+		transfer_state = 447
+		transfer_state = 446
+		add_state_core = 461
+		add_state_core = 462
+		add_state_core = 290
+		add_state_core = 783
+		add_state_core = 699
+		add_state_core = 513
+		add_state_core = 459
+		add_state_core = 460
+		add_state_core = 458
+		add_state_core = 665
+		add_state_core = 448
+		add_state_core = 661
+		add_state_core = 273
+		add_state_core = 662
+		add_state_core = 449
+		add_state_core = 663
+		add_state_core = 450
+		add_state_core = 451
+		add_state_core = 452
+		add_state_core = 447
+		add_state_core = 446
+		add_state_core = 453
+		add_state_core = 552
+		add_state_core = 679
+		add_state_core = 457
+		add_state_core = 456
+		add_state_core = 551
+		add_state_core = 767
+		add_state_core = 268
+		add_state_core = 709
+		add_state_core = 713
+		add_state_core = 367
+		add_state_core = 370
+		add_state_core = 318
+		add_state_core = 558
+		add_state_core = 773
+		add_state_core = 774
+		add_state_core = 660
+		add_state_core = 718
+		add_state_core = 768
+		add_state_core = 769
+		add_state_core = 546
+		add_state_core = 770
+		add_state_core = 771
+		add_state_core = 545
+		add_state_core = 542
+		add_state_core = 544
+		add_state_core = 298
+		add_state_core = 700
+		add_state_core = 780
+		add_state_core = 296
+		add_state_core = 272
+		add_state_core = 701
+		add_state_core = 557
+		add_state_core = 786
+		add_state_core = 637
+		set_cosmetic_tag = ETH_africanempire
+	} }
+	focus = {
+		id = ETH_War_Unicorn
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_We_Wuz
+		}
+		prerequisite = {
+			focus = ETH_Aggressive
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+		create_wargoal = { type= annex_everything target = ENG }
+	} }
+	focus = {
+		id = ETH_Free
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_We_Wuz
+		}
+		prerequisite = {
+			focus = ETH_Subjugate
+		}
+		x = 5
+		y = 7
+		completion_reward = {
+			OVERLORD = {
+				set_autonomy = {
+					target = ETH
+					autonomy_state = autonomy_free
+				}
+			}
+	} }
+	focus = {
+		id = ETH_Nazi
+		icon = GFX_focus_SAF_german_coup
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Free
+			focus = ETH_Aggressive
+		}
+		mutually_exclusive = {
+			focus = ETH_Monky
+		}
+		x = 9
+		y = 8
+		completion_reward = {
+		set_politics = {
+		ruling_party = fascism
+		elections_allowed = no
+	} 
+	add_popularity = {
+	ideology = fascism
+	popularity = 1
+}
+	} }
+	focus = {
+		id = ETH_Dorito
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Nazi
+		}
+		x = 9
+		y = 9
+		completion_reward = {
+		GER = { add_opinion_modifier = { target = ETH modifier = pact_of_steel_opinion } }
+	} }
+	focus = {
+		id = ETH_Nigloo
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Watermelon
+		}
+		mutually_exclusive = {
+			focus = ETH_KFC
+		}
+		x = 1
+		y = 4
+		completion_reward = { random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 5
+    			add_building_construction = {
+                    			type = industrial_complex
+                    			level = 5
+                    			instant_build = yes
+                } }
+	} }
+	focus = {
+		id = ETH_KFC
+		icon = GFX_focus_chi_army_reform
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Chicken_Factories
+		}
+		mutually_exclusive = {
+			focus = ETH_Nigloo
+		}
+		x = 3
+		y = 4
+		completion_reward = { random_owned_controlled_state = {
+    			add_extra_state_shared_building_slots = 5
+    			add_building_construction = {
+                    			type = arms_factory
+                    			level = 5
+                    			instant_build = yes
+                } }
+	} }
+	focus = {
+		id = ETH_Africa_Air_Force
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Subjugate
+			focus = ETH_KFC
+		}
+		x = 4
+		y = 5
+		completion_reward = {
+		air_experience = 500
+	} }
+	focus = {
+		id = ETH_Find_Mufasa
+		icon = GFX_focus_eng_imperial_federation
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Aggressive
+			focus = ETH_Nigloo
+		}
+		x = 4
+		y = 6
+		completion_reward = {
+		army_experience = 250
+		navy_experience = 250
+	} }
+	focus = {
+		id = ETH_War_France
+		icon = GFX_focus_attack_france
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Free
+		}
+		x = 5
+		y = 8
+		completion_reward = {
+		create_wargoal={ type= annex_everything target= FRA}
+	} }
+	focus = {
+		id = ETH_RanOutOfIdeas
+		icon = GFX_focus_eng_decolonization
+		cost = 50.00
+		prerequisite = {
+			focus = ETH_War_France
+			focus = ETH_War_Unicorn
+		}
+		x = 6
+		y = 9
+		completion_reward = {
+		add_political_power = 5000
+		add_manpower = 900000
+	} }
+	focus = {
+		id = ETH_RanOut2
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
+		cost = 50.00
+		prerequisite = {
+			focus = ETH_RanOutOfIdeas
+		}
+		x = 6
+		y = 10
+		completion_reward = {
+		add_manpower = 950000
+		transfer_state = 637
+		transfer_state = 644
+	} }
+	focus = {
+		id = ETH_Wario_Fart
+		icon = GFX_focus_eng_liberate_the_home_of_marx
+		cost = 50.00
+		prerequisite = {
+			focus = ETH_RanOut2
+		}
+		x = 6
+		y = 11
+		completion_reward = {
+		add_manpower = -100000
+	} }
+	focus = {
+		id = ETH_Monky
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Free
+			focus = ETH_Aggressive
+		}
+		mutually_exclusive = {
+			focus = ETH_Nazi
+		}
+		x = 11
+		y = 8
+		completion_reward {
+				set_politics = {
+		ruling_party = communism
+		elections_allowed = no }
+add_popularity = {
+	ideology = communism
+	popularity = 1
+}		} }
+	focus = {
+		id = ETH_Iceman
+		icon = GFX_focus_usa_honor_the_confederacy
+		cost = 10.00
+		prerequisite = {
+			focus = ETH_Monky
+		}
+		x = 11
+		y = 9
+		completion_reward = {
+		SOV = { add_opinion_modifier = { target = ETH modifier = pact_of_steel_opinion } }
+	}
+}
