@@ -19,7 +19,7 @@ music = {
 }
 music = {
 	name = "general_peace_3"
-	file = "asongforthechildrenofww2.ogg"
+	file = "cars.ogg"
 	volume = 0.65
 }
 
@@ -31,7 +31,7 @@ music = {
 }
 music = {
 	name = "general_war_2"
-	file = "general_war_theattack.ogg"
+	file = "fnaf.ogg"
 	volume = 0.65
 }
 
@@ -39,7 +39,7 @@ music = {
 # Allies Peace:
 music = {
 	name = "allies_peace_1"
-	file = "allies_peace_morningofdday.ogg"
+	file = "fortunate_son.ogg"
 	volume = 0.65
 }
 music = {
@@ -122,7 +122,7 @@ music = {
 
 music = {
 	name = "comintern_war_1"
-	file = "themightofsovietunion.ogg"
+	file = "acdc.ogg"
 	volume = 0.65
 }
 
