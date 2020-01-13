@@ -5,7 +5,7 @@ music = {
 	song = "maintheme"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 1
 		}		
 	}
 }
@@ -16,7 +16,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 2
 
 			has_war = no
 		}		
@@ -28,7 +28,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 2
 
 			has_war = no
 		}		
@@ -40,7 +40,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 2
 
 			has_war = no
 		}		
@@ -52,7 +52,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = no
 			has_government = democratic
@@ -106,7 +106,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 2
 
 			has_war = yes
 		}		
@@ -118,7 +118,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 2
 
 			has_war = yes
 		}		
@@ -130,7 +130,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = yes
 			has_government = fascism
@@ -169,7 +169,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = yes
 			has_government = fascism
@@ -182,7 +182,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = yes
 			has_government = democratic
@@ -208,7 +208,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = no
 			has_government = communism
@@ -248,7 +248,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = yes
 			has_government = communism
