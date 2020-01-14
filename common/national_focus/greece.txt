@@ -29,6 +29,7 @@ focus_tree = {
 		}
 
 	}
+##family guy
 	focus = {
 		id = GRE_Family_Conference
 		icon = GFX_focus_eng_the_kings_party
@@ -48,6 +49,7 @@ focus_tree = {
 		}
 
 	}
+##normal
 	focus = {
 		id = GRE_Big_Balls
 		icon = GFX_goal_tfv_smiling_buddha
@@ -585,7 +587,7 @@ focus_tree = {
 		x = 10
 		y = 1
 		completion_reward = {
-		completion_reward = { random_owned_controlled_state = {
+		random_owned_controlled_state = {
     			add_extra_state_shared_building_slots = 5
     			add_building_construction = {
                     			type = industrial_complex
@@ -594,7 +596,7 @@ focus_tree = {
                 } }
 		}
 
-	} }
+	}
 	focus = {
 		id = GRE_Own_Way
 		icon = GFX_focus_generic_support_the_left_right
@@ -694,6 +696,7 @@ focus_tree = {
 		}
 
 	}
+##family guy
 	focus = {
 		id = GRE_Family_Guy_Coup
 		icon = GFX_focus_SAF_colonialist_crusade
@@ -918,6 +921,9 @@ focus_tree = {
 		ideology = democratic
 		popularity = 0.30
 	}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes }
 		}
 
 	}
@@ -941,6 +947,7 @@ focus_tree = {
 		}
 
 	}
+##normal
 	focus = {
 		id = GRE_Merf
 		icon = GFX_focus_chi_british_cooperation
@@ -1010,6 +1017,7 @@ focus_tree = {
 		POR = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
 		}
 	}
+##family guy
 	focus = {
 		id = GRE_Return_Quahog
 		icon = GFX_focus_usa_guarantee_the_american_dream
