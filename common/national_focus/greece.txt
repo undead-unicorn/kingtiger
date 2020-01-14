@@ -2481,12 +2481,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = extra_tech_slot
+		id = GRE_extra_tech_slot
 		icon = GFX_focus_research
-		prerequisite = { focus = infrastructure_effort_2 }
+		prerequisite = { focus = GRE_infrastructure_effort_2 }
 		x = 0
 		y = 1
-		relative_position_id = infrastructure_effort_2
+		relative_position_id = GRE_infrastructure_effort_2
 		cost = 10
 
 		available_if_capitulated = yes
@@ -2497,9 +2497,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = extra_tech_slot_2
+		id = GRE_extra_tech_slot_2
 		icon = GFX_focus_research
-		prerequisite = { focus = extra_tech_slot }
+		prerequisite = { focus = GRE_extra_tech_slot }
 		available = {
 			num_of_factories > 50
 		}
@@ -2507,7 +2507,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		x = 0
 		y = 1
-		relative_position_id = extra_tech_slot
+		relative_position_id = GRE_extra_tech_slot
 		cost = 10
 
 		available_if_capitulated = yes
@@ -2518,12 +2518,12 @@ focus_tree = {
 	}	
 
 	focus = {
-		id = secret_weapons
+		id = GRE_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
-		prerequisite = { focus = infrastructure_effort_2 }
+		prerequisite = { focus = GRE_infrastructure_effort_2 }
 		x = 2
 		y = 1
-		relative_position_id = infrastructure_effort_2
+		relative_position_id = GRE_infrastructure_effort_2
 		cost = 10
 
 		available_if_capitulated = yes
