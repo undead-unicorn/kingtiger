@@ -1,4 +1,5 @@
-﻿l_english:
+﻿  
+l_english:
  FACTION_LEADER:0 "Faction leader: §Y$COUNTRY$§!"
  FACTION_MEMBER:0 "Faction member: §Y$COUNTRY$§!"
  FACTION_CREATED_UNDER_MASTER_TITLE:0 "Joined Master's Faction"
@@ -8,7 +9,7 @@
  FACTION_NAME_IDEOLOGY_DEFAULT:0 "Supporters of $IDEOLOGY$"
  french_alliance:0 "John Alliance"
  the_berlin_moscow_axis:0 "The Dorito-Iceman Axis"
- domination_francaise:0 "Domination Française"
+ domination_francaise:0 "The Followers of Jah"
  french_entente_alliance:0 "John Alliance"
  daitoa_kyoeiken:0 "Daitoa Kyoeiken"
  italy_empire_faction:0 "Pringle Empire"
@@ -34,7 +35,7 @@
  JAP_the_new_international:0 "The New International"
  CHI_the_peoples_front:0 "The Freak Front"
  PRC_mao_faction:0 "Mutual Freak Bloc"
- USA_hemisphere_defense_faction:0 "Treaty of Reciprocal Assistance"
+ USA_hemisphere_defense_faction:0 "Treaty of Joestar Family"
  ENG_commonwealth_of_nations:0 "Luigi Entente"
  ENG_british_communist_alternative:0 "FUCK YOU ICEMAN FUCK YOOOOUUUUU"
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
