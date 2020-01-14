@@ -7213,14 +7213,14 @@ focus_tree = {
 		prerequisite = { focus = ENG_global_defense }
 		available = { 
 			has_country_leader =  {
-				name = "Neville Chamberlain"
+				name = "Undead Unicorn"
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			OR = {
 				has_country_leader =  {
-					name = "Winston Churchill"
+					name = "Undead Unicorn"
 					ruling_only = yes
 				}
 				has_country_leader =  {
