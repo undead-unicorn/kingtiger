@@ -34,6 +34,11 @@ music = {
 	file = "fnaf.ogg"
 	volume = 0.65
 }
+music = {
+	name = "general_war_2"
+	file = "fnaf.ogg"
+	volume = 0.65
+}
 
 
 # Allies Peace:
