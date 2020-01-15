@@ -1451,7 +1451,9 @@ focus_tree = {
 				190 = { is_claimed_by = ROOT }
 			}
 		}
-		completion_reward = {			
+		completion_reward = {
+		add_stability = 0.1
+		add_manpower = 1000
 	}
 
 	focus = {
@@ -1484,6 +1486,8 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
+		add_stability = 0.1
+		add_manpower = 1000
 	}		
 
 	focus = {
