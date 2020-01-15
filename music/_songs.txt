@@ -126,6 +126,18 @@ music = {
 }
 
 music = {
+	song = "general_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
 	song = "axis_war_1"
 	
 	chance = {
