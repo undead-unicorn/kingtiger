@@ -1241,9 +1241,9 @@ focus_tree = {
 			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 			hidden_effect = {
 				create_country_leader = {
-					name = "Miklós Horthy"
+					name = "Peridorky"
 					desc = "POLITICS_MIKLOS_HORTHY_DESC"
-					picture = "Portrait_Hungary_Miklos_Horthy.dds"
+					picture = "peridorky.dds"
 					expire = "1965.1.1"
 					ideology = fascism_ideology
 					traits = {
