@@ -397,7 +397,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Comrade Murphichov"
+	name = "Lil Matt"
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "portrait_eng_harry_pollitt.dds"
 	expire = "1965.1.1"
