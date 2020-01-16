@@ -13,6 +13,20 @@ ideas = {
 			consumer_goods_factor = -0.20
 		}
 		}
+		griffin = {
+		allowed = {
+			always = no
+		}
+
+		picture = generic_democratic_drift_bonus
+
+		modifier = {
+			conscription = 0.07
+			research_bonus = {
+			land_doctrine = 0.05
+		}
+		}
+		}
 	}
 	
 
