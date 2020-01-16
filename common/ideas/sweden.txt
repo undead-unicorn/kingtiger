@@ -1,0 +1,17 @@
+ideas = {
+	
+	country = {
+		cbt_exile_sweden = {
+		allowed = {
+			always = no
+		}
+
+		picture = vittoria_mutilata
+
+		modifier = {
+			conscription = 0.70
+			consumer_goods_factor = -0.80
+		}
+		}
+    }
+    }
