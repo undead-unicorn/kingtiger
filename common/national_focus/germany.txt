@@ -3410,12 +3410,12 @@ focus_tree = {
 
 			if = {
 				limit = {
-					NOT = { NOR = { is_in_faction_with = GER } }
-					country_exists = NOR					
+					NOT = { CBT = { is_in_faction_with = GER } }
+					country_exists = CBT					
 				} 
 				create_wargoal = {
 					type = take_state_focus
-					target = NOR
+					target = CBT
 					generator = { 110 }
 				}
 			}
