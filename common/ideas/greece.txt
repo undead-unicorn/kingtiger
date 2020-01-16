@@ -18,7 +18,7 @@ ideas = {
 			always = no
 		}
 
-		picture = generic_democratic_drift_bonus
+		picture = vittoria_mutilata
 
 		modifier = {
 			conscription = 0.07
