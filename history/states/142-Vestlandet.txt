@@ -39,7 +39,8 @@ state={
 		victory_points = {
 			122 3
 		}
-		add_core_of = CBT SWE
+		add_core_of = CBT
+		add_core_of = SWE
 	}
 
 	provinces={
