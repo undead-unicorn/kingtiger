@@ -443,14 +443,14 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Claude Auchinleck"
+	name = "Commander Merfew"
 	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist career_officer }
-	skill = 5
-	attack_skill = 3
+	traits = { brilliant_strategist media_personality }
+	skill = 6
+	attack_skill = 6
 	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+	planning_skill = 1
+	logistics_skill = 4
 }
 
 create_corps_commander = {
