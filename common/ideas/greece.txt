@@ -22,8 +22,9 @@ ideas = {
 
 		modifier = {
 			conscription = 0.07
-			research_bonus = {
-			land_doctrine = 0.05
+			army_defence_factor = 0.65
+			army_attack_factor = 0.75
+			army_morale_factor = -0.1
 		}
 		}
 		}
