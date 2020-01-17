@@ -28,7 +28,6 @@ ideas = {
 		}
 		}
 		}
-	}
 	
 
 	political_advisor = {
