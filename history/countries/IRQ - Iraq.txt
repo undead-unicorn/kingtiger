@@ -111,6 +111,16 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Saddam Hussein"
+	picture = "saddam.dds"
+	traits = { offensive_doctrine trait_reckless politically_connected }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 1939.1.1 = {
 	set_politics = {
