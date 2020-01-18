@@ -75,12 +75,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
+	fascism = 30
+	neutrality = 70
 }
 
 create_country_leader = {
-	name = "Robert E Kuss"
+	name = "Robert E. Kuss"
 	desc = "POLITICS_GHAZI_I_DESC"
 	picture = "robert.dds"
 	expire = "1965.1.1"
@@ -91,9 +91,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rashid Ali al-Gaylani"
+	name = "Saddam Hussein"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+	picture = "saddam.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
