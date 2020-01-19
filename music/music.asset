@@ -119,7 +119,7 @@ music = {
 
 music = {
 	name = "comintern_peace_3"
-	file = "sovietvictory.ogg"
+	file = "to_the_bone.ogg"
 	volume = 0.65
 }
 
