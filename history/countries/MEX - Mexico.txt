@@ -212,7 +212,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Scringis but not"
 	desc = "POLITICS_SALVADOR_ABASCAL_DESC"
-	picture = "GFX_Portrait_MEX_Salvador_Abascal"
+	picture = "fashscring.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
@@ -221,9 +221,9 @@ create_country_leader = {
 }
 
 create_country_leader = { # Exiled until 1935 following a rebellion attempt, allowed back in by Cardenas and joined the cabinet of Avila
-	name = "Dorito smells"
+	name = "Cum Man"
 	desc = "POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
-	picture = "GFX_Portrait_MEX_Adolfo_de_la_Huerta"
+	picture = "demscring.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -232,9 +232,9 @@ create_country_leader = { # Exiled until 1935 following a rebellion attempt, all
 }
 
 create_country_leader = { # Stalinist, took over after assassination of Trotsky. 1940-1959
-	name = "bruh"
+	name = "Scringis but sad"
 	desc = "POLITICS_DIONISIO_ENCINA_DESC"
-	picture = "GFX_Portrait_MEX_Dionisio_Encina"
+	picture = "comscring.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
@@ -243,9 +243,9 @@ create_country_leader = { # Stalinist, took over after assassination of Trotsky.
 }
 
 create_country_leader = { # Trotskyist, led the PCM 1929-1940
-	name = "why"
+	name = "Scringis but happy"
 	desc = "POLITICS_HERNAN_LABORDE_DESC"
-	picture = "GFX_Portrait_MEX_Hernan_Laborde"
+	picture = "comscring.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
