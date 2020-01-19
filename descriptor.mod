@@ -7,5 +7,6 @@ tags={
 	"Map"
 }
 name="King Tiger Mod"
+picture="thumbnail.jpg"
 supported_version="1.8.1"
 remote_file_id="1956324505"
