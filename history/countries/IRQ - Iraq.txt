@@ -97,16 +97,26 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		dictator
 	}
 }
 
 create_country_leader = {
-	name = "Yusuf Salman Yusuf"
+	name = "Robert Zedong"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+	picture = "robert.dds"
 	expire = "1965.1.1"
 	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Robert E. Kuss"
+	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
+	picture = "robert.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}
