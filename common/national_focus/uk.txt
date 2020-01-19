@@ -7772,6 +7772,14 @@ focus_tree = {
 				generator = { 291 }
 				expire = 0
 			}
+			IRQ = { set_politics = {
+			ruling_party = fascism
+			elections_allowed = no }
+			add_popularity = {
+			ideology = fascism
+			popularity = 0.30
+		}
+				}
 		}
 	}
 	focus = {
