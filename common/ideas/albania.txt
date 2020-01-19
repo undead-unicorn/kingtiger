@@ -1,5 +1,24 @@
 ideas = {
 
+	country = {
+		kneel = {
+		allowed = {
+			always = no
+		}
+
+		picture = idea_man_militarism
+
+		modifier = {
+			army_defence_factor = 69.69
+			army_attack_factor = 420.42
+			army_morale_factor = 666.00
+			generate_wargoal_tension = -1.00
+			justify_war_goal_time = -0.75
+			non_core_manpower = 0.90
+		}
+		}
+		}
+
 	political_advisor = {
 
 		ALB_midhat_frasheri = {
