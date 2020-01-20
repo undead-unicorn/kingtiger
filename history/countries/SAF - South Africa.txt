@@ -180,9 +180,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "D. F. Malan"
+	name = "Emo Zev"
 	desc = "POLITICS_DF_MALAN_DESC"
-	picture = "GFX_SAF_daniel_malan"
+	picture = "zevr.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -191,9 +191,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Moses Kotane"
+	name = "Richest Man in the World"
 	desc = "POLITICS_MOSES_KOTANE_DESC"
-	picture = "GFX_SAF_moses_kotane"
+	picture = "maurice.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -213,7 +213,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "George Edwin Brink"
+	name = "Hood Nigga"
 	gfx = "GFX_SAF_george_edwin_brink"
 	traits = { desert_fox  }
 	skill = 4
@@ -221,6 +221,18 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Eazy E"
+	picture = "eazye.dds"
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected substance_abuser }
+	skill = 5
+	id = 602
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 5
 }
 
 create_navy_leader = {
