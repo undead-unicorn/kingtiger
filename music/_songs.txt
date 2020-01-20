@@ -48,6 +48,18 @@ music = {
 }
 
 music = {
+	song = "general_peace_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
 	song = "allies_peace_1"
 	
 	chance = {
@@ -75,19 +87,6 @@ music = {
 
 music = {
 	song = "axis_peace_1"
-	
-	chance = {
-		modifier = {
-			factor = 4
-
-			has_war = no
-			has_government = fascism
-		}		
-	}	
-}
-
-music = {
-	song = "axis_peace_2"
 	
 	chance = {
 		modifier = {
