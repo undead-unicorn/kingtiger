@@ -6,7 +6,7 @@ ideas = {
 			always = no
 		}
 
-		picture = idea_man_militarism
+		picture = man_militarism
 
 		modifier = {
 			army_defence_factor = 69.69
