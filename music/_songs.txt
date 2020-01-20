@@ -91,7 +91,7 @@ music = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 4
 
 			has_war = no
 			has_government = fascism
