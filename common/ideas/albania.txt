@@ -4,6 +4,7 @@ ideas = {
 		kneel = {
 		allowed = {
 			always = no
+			ideology = neutrality
 		}
 
 		picture = man_militarism
