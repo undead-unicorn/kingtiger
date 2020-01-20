@@ -5,6 +5,11 @@ ideas = {
 		allowed = {
 			ideology = neutrality
 		}
+		cancel = {
+  		NOT = {
+    		has_government = neutrality
+  		}
+		}
 
 		picture = man_militarism
 
