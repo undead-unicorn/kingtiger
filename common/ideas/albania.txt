@@ -3,7 +3,6 @@ ideas = {
 	country = {
 		kneel = {
 		allowed = {
-			always = no
 			ideology = neutrality
 		}
 
