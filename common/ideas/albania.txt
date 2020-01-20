@@ -15,6 +15,7 @@ ideas = {
 			generate_wargoal_tension = -1.00
 			justify_war_goal_time = -0.75
 			non_core_manpower = 0.90
+			neutrality_drift = 0.10
 		}
 		}
 		}
