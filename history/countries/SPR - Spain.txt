@@ -170,9 +170,9 @@ set_stability = 0.5
 }
 
 create_country_leader = {
-	name = "Manuel Azana"
+	name = "Collin Joe"
 	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
+	picture = "collin.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
