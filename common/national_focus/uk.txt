@@ -7224,7 +7224,7 @@ focus_tree = {
 					ruling_only = yes
 				}
 				has_country_leader =  {
-					name = "Lord Edward Halifax"
+					name = "Kaiser Matthew I"
 					ruling_only = yes
 				}
 			}
