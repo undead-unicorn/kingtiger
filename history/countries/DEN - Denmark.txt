@@ -151,20 +151,20 @@ set_popularities = {
 set_convoys = 40
 
 create_country_leader = {
-	name = "Thorvald Stauning"
+	name = "Santa Claus"
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		#
+		baron_of_terror
 	}
 }
 
 create_country_leader = {
-	name = "Frits Clausen"
+	name = "Evil Santa"
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -173,9 +173,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Aksel Larsen"
+	name = "Hungry Santa"
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -184,9 +184,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Peter Rochegune Munch"
+	name = "Neutral Santa"
 	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
