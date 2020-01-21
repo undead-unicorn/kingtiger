@@ -95,17 +95,16 @@ bookmarks = {
 				GER_ussr_war_goal
 			}
 		}
-		"ITA"={
-			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+		"LIT"={
+			history = "LIT_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				vittoria_mutilata
-				victor_emmanuel
+				#####
 			}	
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
+				encourage_hentai
+				encourage_cbt
+				claims_on_latvia
 			}		
 		}
 		"JAP"={
@@ -449,4 +448,18 @@ bookmarks = {
 			#123 = { rain_light = yes }
 		}
 	}
+		"ITA"={
+			minor = yes
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}		
+		}
 }
