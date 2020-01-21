@@ -133,6 +133,6 @@ music = {
 
 music = {
 	name = "comintern_war_3"
-	file = "thegreatpatrioticwar.ogg"
+	file = "eggman.ogg"
 	volume = 0.65
 }
