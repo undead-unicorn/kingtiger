@@ -368,10 +368,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_country_leader = { name = "Lázaro Cárdenas" }
+					has_country_leader = { name = "Scringis" }
 				}
 				create_country_leader = {
-					name = "Lázaro Cárdenas"
+					name = "Scringis"
 					desc = "POLITICS_LAZARO_CARDENAS_DESC"
 					picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 					expire = "1965.1.1"
@@ -381,9 +381,9 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Plutarco E. Calles"
+					name = "El Jefe Scring"
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
+					picture = "jesuscring.dds"
 					expire = "1965.1.1"
 					ideology = despotism
 					traits = {
@@ -394,12 +394,12 @@ focus_tree = {
 			
 			if = {
 				limit = {
-					has_country_leader = { name = "Vicente Lombardo" }
+					has_country_leader = { name = "Scringis but happy" }
 				}
 				create_country_leader = {
-					name = "Vicente Lombardo"
+					name = "Scringis but hungry"
 					desc = "POLITICS_VICENTE_LOMBARDO_DESC"
-					picture = GFX_portrait_mex_vicente_lombardo
+					picture = "comscring.dds"
 					expire = "1965.1.1"
 					ideology = marxism
 					traits = {
@@ -407,9 +407,9 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Plutarco E. Calles"
+					name = "El Jefe Scring"
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
+					picture = "jesuscring.dds"
 					expire = "1965.1.1"
 					ideology = despotism
 					traits = {
@@ -884,9 +884,9 @@ focus_tree = {
 					has_completed_focus = MEX_focus_professional_army
 				}
 				create_field_marshal = {
-					name = "Saturnino Cedillo Martínez"
+					name = "The Cock and Nuts Soldier"
 					id = 708
-					gfx = "GFX_portrait_mex_saturnino_cedillo"
+					gfx = "cedilloscring.dds"
 					traits = { trait_reckless trickster} # Futile rebellion
 					skill = 3
 					attack_skill = 4
@@ -896,9 +896,9 @@ focus_tree = {
 				}
 				else = {
 					create_field_marshal = {
-						name = "Saturnino Cedillo Martínez"
+						name = "The Cock and Nuts Soldier"
 						id = 708
-						gfx = "GFX_portrait_mex_saturnino_cedillo"
+						gfx = "cedilloscring.dds"
 						traits = { trait_reckless trickster } # Futile rebellion
 						skill = 3
 						attack_skill = 4
@@ -2272,10 +2272,10 @@ focus_tree = {
 			
 			if = {
 				limit = {
-					has_country_leader = { name = "Lázaro Cárdenas" }
+					has_country_leader = { name = "Scringis" }
 				}
 				create_country_leader = {
-					name = "Lázaro Cárdenas"
+					name = "Scringis"
 					desc = "POLITICS_LAZARO_CARDENAS_DESC"
 					picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 					expire = "1965.1.1"
@@ -2285,9 +2285,9 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Plutarco E. Calles"
+					name = "El Jefe Scring"
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = GFX_portrait_mex_calles_civil
+					picture = "jesuscring.dds"
 					expire = "1965.1.1"
 					ideology = despotism
 					traits = {
@@ -2978,9 +2978,9 @@ focus_tree = {
 				}
 			}
 			create_country_leader = {
-				name = "Luis María Martínez"
+				name = "Catholic Scringis"
 				desc = "POLITICS_LUIS_MARIA_MARTINEZ_DESC"
-				picture = GFX_Portrait_MEX_Luis_Maria_Martinez
+				picture = comscring.dds
 				expire = "1965.1.1"
 				ideology = socialism
 				traits = {
@@ -3783,9 +3783,9 @@ focus_tree = {
 					has_completed_focus = MEX_focus_jefe_maximo
 				}
 				create_country_leader = {
-					name = "Plutarco E. Calles"
+					name = "El Jefe Scring"
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
-					picture = "GFX_portrait_mex_calles_civil"
+					picture = "comscring.dds"
 					expire = "1965.1.1"
 					ideology = fascism_ideology #changed to "regular fascism" to differenciate from Abascal
 					traits = {
@@ -3799,9 +3799,9 @@ focus_tree = {
 					has_completed_focus = MEX_focus_support_general_cedillo
 				}
 				create_country_leader = {
-					name = "Saturnino Cedillo"
+					name = "The Cock and Nuts Soldier"
 					desc = "POLITICS_SATURNINO_CEDILLO_DESC"
-					picture = "GFX_portrait_mex_saturnino_cedillo"
+					picture = "cedilloscring.dds"
 					expire = "1965.1.1"
 					ideology = fascism_ideology
 					traits = {
@@ -3902,7 +3902,7 @@ focus_tree = {
 					}
 				}
 				create_country_leader = {
-					name = "Leon Trotsky"
+					name = "Good Ol' Trotters"
 					desc = "POLITICS_LEON_TROTSKY_DESC"
 					picture = "gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
 					expire = "1965.1.1"
@@ -4709,7 +4709,7 @@ focus_tree = {
 			is_subject = no
 			OR = {
 				has_country_leader = {
-					name = "Leon Trotsky"
+					name = "Good Ol' Trotters"
 					ruling_only = yes
 				}
 				has_country_leader = {
