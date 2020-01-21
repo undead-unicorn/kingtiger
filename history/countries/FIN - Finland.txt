@@ -166,9 +166,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kyösti Kallio"
+	name = "My Summer Car"
 	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	picture = "car.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
