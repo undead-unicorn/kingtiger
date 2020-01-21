@@ -62,7 +62,7 @@ music = {
 music = {
 	name = "allies_war_2"
 	file = "newworld.ogg"
-	volume = 0.65
+	volume = 0.80
 }
 
 
@@ -83,7 +83,7 @@ music = {
 music = {
 	name = "axis_war_2"
 	file = "family_guy.ogg"
-	volume = 0.65
+	volume = 0.85
 }
 music = {
 	name = "axis_war_3"
