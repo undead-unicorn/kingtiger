@@ -429,6 +429,7 @@ bookmarks = {
 				HOL_prepare_the_inundation_lines
 			}
 		}
+		
 		"GRE"={
 			minor = yes
 			history = "GREECE_GATHERING_STORM_DESC"
@@ -443,11 +444,6 @@ bookmarks = {
 			}
 		}
 		
-		effect = {
-			randomize_weather = 22345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
-		}
-	}
 		"ITA"={
 			minor = yes
 			history = "ITA_GATHERING_STORM_DESC"
@@ -462,4 +458,9 @@ bookmarks = {
 				ITA_italy_first
 			}		
 		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}	
 }
