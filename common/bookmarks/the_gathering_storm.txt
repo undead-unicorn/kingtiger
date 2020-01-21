@@ -7,20 +7,21 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+		"MEX"={
+			history = "MEXICO_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
+				MEX_church_power_2
+				MEX_politicised_army
+				MEX_oil_concessions
 			}
 			focuses = {
-				FRA_initiate_government_reform
-				FRA_support_status_quo
-				FRA_revise_versailles
+				MEX_focus_aztec_eagles
+				MEX_focus_hispanic_alliance
+				MEX_focus_smash_the_bureaucrats
 			}
 		}
+
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -398,19 +399,19 @@ bookmarks = {
 			}
 		}
 		
-		"MEX"={
+		"FRA"={
 			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				MEX_church_power_2
-				MEX_politicised_army
-				MEX_oil_concessions
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				MEX_focus_aztec_eagles
-				MEX_focus_hispanic_alliance
-				MEX_focus_smash_the_bureaucrats
+				FRA_initiate_government_reform
+				FRA_support_status_quo
+				FRA_revise_versailles
 			}
 		}
 
