@@ -198,9 +198,9 @@ focus_tree = {
 				coordination_skill = 4				
 			}
 			create_country_leader = {
-				name = "Otto von Habsburg"
+				name = "Queen Raine"
 				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
-				picture = GFX_Portrait_hungary_otto_von_hapsburg
+				picture = "sills.dds"
 				expire = "1965.1.1"
 				ideology = despotism
 				traits = {
