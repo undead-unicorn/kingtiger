@@ -2403,7 +2403,7 @@ country_event = {
 		has_government = fascism
 		has_civil_war = no
 		has_global_flag = USA_civil_war_fired_democrats
-		has_country_leader = { ruling_only = yes name = "Douglas MacArthur" }
+		has_country_leader = { ruling_only = yes name = "ShittyG" }
 	}
 	mean_time_to_happen = { days = 20 }
 	fire_only_once = yes
@@ -2458,13 +2458,13 @@ country_event = {
 		}
 		name = mtg_usa_civil_war_democrats.41.d
 		create_country_leader = {
-			name = "Charles Lindbergh"
+			name = "Collin Joe"
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
-			picture = GFX_portrait_USA_charles_lindbergh
+			picture = "collin.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = collinism
 			traits = {
-				famous_aviator
+				crip
 			}
 		}
 	}
