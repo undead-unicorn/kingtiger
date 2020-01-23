@@ -185,7 +185,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "comradejoe.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = joeism
 	traits = {
 		#
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 	picture = "collinjoe.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = collinism
 	traits = {
 		#
 	}
@@ -214,8 +214,8 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "José Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Collin's Evil Twin"
+	portrait_path = "collin.dds"
 	traits = { defensive_doctrine }
 	skill = 2
     attack_skill = 1
