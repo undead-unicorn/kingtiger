@@ -223,7 +223,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Stojadinović"
+	name = "Q"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 	expire = "1965.1.1"
@@ -234,7 +234,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Milan Grol"
+	name = "Joe"
 	desc = "POLITICS_MILAN_GROL_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
 	expire = "1965.1.1"
@@ -245,7 +245,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Josip Broz Tito"
+	name = "Murr"
 	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
 	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
 	expire = "1965.1.1"
