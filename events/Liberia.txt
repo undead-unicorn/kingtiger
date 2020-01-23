@@ -10,14 +10,13 @@ country_event = {
 	title = liberia.1.t
 	desc = liberia.1.d
 	picture = GFX_garyevent
-	major = yes
 
 	fire_only_once = yes
 
 	trigger = {
 		tag = LIB
 		has_government = fascism
-		date > 1936.1.4
+		date > 1937.1.3
 		has_country_leader = {
 			name = "The Coleman"
 			ruling_only = yes
@@ -51,6 +50,9 @@ country_event = {
 			traits = {
 				
 			}
+		}
+	hidden_effect = {
+			news_event = { id = news.331 }
 		}
 	}
 }
