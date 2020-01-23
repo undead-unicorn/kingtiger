@@ -13108,7 +13108,7 @@ news_event = {
 news_event = {
 	id = news.999
 	title = news.999.t
-	desc = news.999.d
+	desc = news.999.desc
 	picture = GFX_garyevent
 	
 	major = yes
