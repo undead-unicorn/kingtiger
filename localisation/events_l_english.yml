@@ -3179,4 +3179,8 @@
  usa.401.t:0 "[From.GetNameDefCap] accepts Destroyers for Bases Agreement"
  usa.401.desc:0 "British Prime Minister [From.GetLeader] has signalled his acceptance of the terms of the Destroyers for Bases Agreement. A group of [From.GetAdjective] naval officers has arrived to inspect the destroyers and oversee the transfer.\n\n There is evidently still some work to do as several [From.GetAdjective] officers seem a little concerned about the sheer amount and thickness of guano and rust on the ships to be transfered."
  usa.401.a:0 "Beggars can't be choosers."
+ liberia.1.t:0 "The Coleman has Passed"
+ liberia.1.d:0 "Last night at 10:00pm, our beloved leader The Coleman unfortunately passed away due to stairfall."
+ liberia.1.a:0 "Bring in the Postal Guy"
+ liberia.1.b:0 "Bring in Postal Coleman"
  
