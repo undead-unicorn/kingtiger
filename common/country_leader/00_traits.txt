@@ -10,6 +10,7 @@ leader_traits = {
 			war_support_factor = -0.15
 			foreign_subversive_activites = -0.65
 			defensive_war_stability_factor = 0.69
+			neutrality_drift = 4.20
 			
 			ai_will_do = {
 				factor = 1
