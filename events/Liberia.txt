@@ -16,7 +16,7 @@ country_event = {
 	trigger = {
 		tag = LIB
 		has_government = fascism
-		date > 1937.3.1
+		date > 1936.1.4
 		has_country_leader = {
 			name = "The Coleman"
 			ruling_only = yes
