@@ -5,6 +5,10 @@ tags={
 	"Graphics"
 	"Ideologies"
 	"Map"
+	"Collin Joe"
+	"King Tiger"
+	"Meme"
+	"Funny"
 }
 name="King Tiger Mod"
 picture="thumbnail.jpg"
