@@ -1,0 +1,55 @@
+###########################
+# Liberian Events
+###########################
+
+add_namespace = liberia
+
+# Coleman dies
+country_event = {
+	id = liberia.1
+	title = liberia.1.t
+	desc = liberia.1.d
+	picture = garyevent.dds
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = LIB
+		has_government = fascism
+		date > 1937.3.1
+		has_country_leader = {
+			name = "The Coleman"
+			ruling_only = yes
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 30
+	}
+
+	option = {
+		name = liberia.1.a
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Postal Guy"
+			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+			picture = "postal.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+		}
+	}
+	option = {
+		name = liberia.1.b
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Postal Coleman"
+			desc = "POLITICS_EDWARD_HALIFAX_DESC"
+			picture = "pcoleman.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				
+			}
+		}
+	}
+}
