@@ -99,9 +99,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Boris III NOOB"
+	name = "Linzy Wise"
 	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Bulgaria_Boris_III.dds"
+	picture = "linzy.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
