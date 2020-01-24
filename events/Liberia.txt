@@ -51,8 +51,8 @@ country_event = {
 				
 			}
 		}
-	hidden_effect = {
-			news_event = { id = news.999 }
-		}
+
+	news_event = { id = news.999 }
+		
 	}
 }
