@@ -205,9 +205,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tim Buck"
+	name = "Maddy Runkle"
 	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "maddy.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
