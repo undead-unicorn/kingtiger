@@ -13109,7 +13109,7 @@ news_event = {
 	id = news.999
 	title = news.999.t
 	desc = news.999.desc
-	picture = GFX_news_event_047
+	picture = "news_event_047.dds"
 	
 	major = yes
 	
