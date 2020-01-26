@@ -116,7 +116,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		#
+		noob
 	}
 }
 
@@ -127,18 +127,18 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		#
+		noob
 	}
 }
 
 create_country_leader = {
-	name = "Hristo Lukov"
+	name = "Noob Hitler HITLER NOOB"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
+	picture = "noobhort.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		noob
 	}
 }
 
