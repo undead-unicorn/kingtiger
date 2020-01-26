@@ -69,9 +69,9 @@ country_event = {
 			hidden_effect = { activate_mission = GER_mefo_bills_mission }
 		}
 		create_country_leader = {
-			name = "August von Mackensen"
+			name = "Doritobama"
 			desc = "POLITICS_AUGUST_VON_MACKENSEN_DESC"
-			picture = GFX_portrait_ger_august_von_mackensen
+			picture = "doritobama.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
@@ -1003,7 +1003,7 @@ country_event = {
 		tag = GER
 		has_government = neutrality
 		date > 1940.1.1
-		has_country_leader = { ruling_only = yes name = "August von Mackensen" }
+		has_country_leader = { ruling_only = yes name = "Doritobama" }
 	}
 
 	mean_time_to_happen = {
