@@ -5853,7 +5853,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			neutrality > 0.4
-			has_country_leader = { ruling_only = yes name = "August von Mackensen" }
+			has_country_leader = { ruling_only = yes name = "Doritobama" }
 		}
 		bypass = {
 			has_country_flag = GER_mackensen_dead
