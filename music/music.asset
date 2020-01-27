@@ -74,6 +74,11 @@ music = {
 	file = "newworld.ogg"
 	volume = 0.80
 }
+music = {
+	name = "allies_war_3"
+	file = "lifelight.ogg"
+	volume = 0.65
+}
 
 
 # Axis Peace:
