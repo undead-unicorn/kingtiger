@@ -6577,7 +6577,7 @@ focus_tree = {
 					}
 					kill_country_leader = yes
 					create_country_leader = {
-						name = "Victor Emmanuel III"
+						name = "Pringle from the Far Future"
 						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 						picture = "GFX_portrait_italy_victor_emmanuel_iii"
 						expire = "1965.1.1"
@@ -6627,7 +6627,18 @@ focus_tree = {
 					AUS = { exists = yes }
 				}
 				AUS = {
+					kill_country_leader = yes
 					add_timed_idea = { idea = GER_rekindle_imperial_sentiment days = 1095 }
+					create_country_leader = {
+						name = "Queen Sills"
+						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+						picture = "gfx/leaders/HUN/sills.dds"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+			
+						}
+					}
 				}
 			}
 			if = {
@@ -6636,6 +6647,16 @@ focus_tree = {
 				}
 				HUN = {
 					add_timed_idea = { idea = GER_rekindle_imperial_sentiment days = 1095 }
+					create_country_leader = {
+						name = "Queen Sills"
+						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+						picture = "sills.dds"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+			
+						}
+					}
 				}
 			}
 			if = {
@@ -6644,6 +6665,16 @@ focus_tree = {
 				}
 				CZE = {
 					add_timed_idea = { idea = GER_rekindle_imperial_sentiment days = 1095 }
+					create_country_leader = {
+						name = "Queen Sills"
+						desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
+						picture = "gfx/leaders/HUN/sills.dds"
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+			
+						}
+					}
 				}
 			}
 			custom_effect_tooltip = GER_rekindle_imperial_sentiment_tt
