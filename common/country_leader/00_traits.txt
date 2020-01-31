@@ -1,4 +1,12 @@
 leader_traits = {
+	leadercarsshow = {
+			random = no
+			industrial_capacity_factory = 0.20
+			high_command_cost_factor = 0.25
+			air_chief_cost_factor = 0.15
+			army_chief_cost_factor = 0.15
+			navy_chief_cost_factor = 0.15
+			defensive_war_stability_factor = -0.05
 	fnafgamer = {
 			random = yes
 			ai_strategy = {
