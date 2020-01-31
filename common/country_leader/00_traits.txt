@@ -5,7 +5,10 @@ leader_traits = {
 			foreign_subversive_activites = 0.10
 			political_advisor_cost_factor = -0.05
 			
-			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	leadercarsshow = {
 			random = no
 			industrial_capacity_factory = 0.20
@@ -14,6 +17,11 @@ leader_traits = {
 			army_chief_cost_factor = 0.25
 			navy_chief_cost_factor = 0.25
 			defensive_war_stability_factor = -0.05
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	fnafgamer = {
 			random = yes
 			ai_strategy = {
