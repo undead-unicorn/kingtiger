@@ -2464,7 +2464,7 @@ country_event = {
 			expire = "1965.1.1"
 			ideology = collinism
 			traits = {
-				crip
+				leadercarsshow presidentcollin
 			}
 		}
 	}
