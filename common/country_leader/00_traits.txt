@@ -1,4 +1,31 @@
 leader_traits = {
+	fnafgamer = {
+			random = yes
+			ai_strategy = {
+			type = befriend
+			id = "POR"			
+			value = 200
+		}
+			foreign_subversive_activites = -0.15
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	whovian = {
+			random = yes
+			industrial_capacity_factory = 0.05
+			research_speed = 0.10
+			ai_strategy = {
+			type = antagonize
+			id = "CBT"			
+			value = 200
+		}
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	gamer = {
 			random = yes
 			fascism_drift = 0.05
