@@ -8,25 +8,17 @@ Make sure the .mod file has the following details:
 version="1.8.1"
 
 tags={
-	
-	"Alternative History"
-	
-	"National Focuses"
-	
-	"Graphics"
-	
-	"Ideologies"
-	
-	"Map"
-	
-	"Collin Joe"
-	
-	"King Tiger"
-	
-	"Meme"
-	
-	"Funny"
 
+	"Alternative History"
+	"National Focuses"
+	"Graphics"
+	"Ideologies"
+	"Map"
+	"Collin Joe"
+	"King Tiger"
+	"Meme"
+	"Funny"
+	
 }
 
 name="King Tiger Mod"
@@ -38,3 +30,5 @@ supported_version="1.8.1"
 path="C:/Users/jewnicorn/Documents/Paradox Interactive/Hearts of Iron IV/mod/King Tiger Mod"
 
 make sure the directory stated in the .mod file leads to the KING TIGER MOD FOLDER----- not the hoi4 mod folder, but the folder in which you dropped the contents of the git into! Obviously your directory will be different to mine!
+
+Also, make sure the slashes are forward slashes: / NOT back slashes: \
