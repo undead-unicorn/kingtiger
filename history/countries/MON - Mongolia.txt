@@ -77,6 +77,16 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Mongolian Wallbreaker"
+	desc = "POLITICS_PLINIO_SALGADO_DESC"
+	picture = "mongolian.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription
