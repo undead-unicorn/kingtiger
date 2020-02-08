@@ -129,9 +129,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Léon Degrelle"
+	name = "Larry DiPiano"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	picture = "larry.dds"
 	expire = "1965.1.1"
 	ideology = rexism
 	traits = {
