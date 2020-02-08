@@ -1,4 +1,4 @@
-﻿capital = 306
+capital = 306
 
 oob = "COL_1936"
 if = {
@@ -113,9 +113,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Alfonso López Pumarejo"
+	name = "Pestario Vargas"
 	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
-	picture = "GFX_Portrait_columbia_alfonso_lopez"
+	picture = "pest.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -134,16 +134,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Gun Pest"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "pestgun.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
 
 1939.1.1 = {
 	set_politics = {
@@ -206,3 +196,4 @@ if = {
 		}
 	}
 }
+
