@@ -280,7 +280,7 @@ country_event = {
 			set_country_flag = backed_down_netherlands_kaiser
 		}
 		create_country_leader = {
-			name = "Wilhelm III"
+			name = "Korey Hikcs"
 			desc = "POLITICS_WILHELM_III_DESC"
 			picture = "koreyy.dds"
 			expire = "1965.1.1"
@@ -980,7 +980,7 @@ country_event = {
 		create_country_leader = {
 			name = "Korey Hikcs"
 			desc = "POLITICS_WILHELM_III_DESC"
-			picture = "koreyy"
+			picture = "koreyy.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
