@@ -69,3 +69,6 @@ create_country_leader = {
 		#
 	}
 }
+create_faction = "Fanboy and Chum Chum"
+add_to_faction = YEM
+add_to_faction = OMA
