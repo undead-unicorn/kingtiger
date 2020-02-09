@@ -12,5 +12,5 @@ tags={
 }
 name="King Tiger Mod"
 picture="thumbnail.jpg"
-supported_version="1.8.1"
+supported_version="1.8.2"
 remote_file_id="1956324505"
