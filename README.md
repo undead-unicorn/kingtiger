@@ -5,7 +5,7 @@ Drop the contents of this git INTO the mod folder
 
 Make sure the .mod file has the following details:
 
-version="1.8.1"
+version="1.8.2"
 
 tags={
 
