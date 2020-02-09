@@ -295,12 +295,12 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 100 0 100 }
+	color_ui = rgb { 100 0 100 }
 }
 OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 204 102 0 }
+	color_ui = rgb { 204 102 0 }
 }
 SLO = {
 	color = rgb { 158  161  188 }
