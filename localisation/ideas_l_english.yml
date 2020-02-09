@@ -1,5 +1,8 @@
 ﻿l_english:
  fascist_influence:0 "Fascist Influence"
+ idea_jasper:0 "Jasper"
+ idea_bonnie:0 "Bonnie Swanson"
+ idea_lois:0 "Lois Griffin"
  kneel:0 "KNEEL BEFORE ZOG!"
  kneel_desc:0 "ALL WILL BOW BEFORE LASER-EYES KING ZOG WHO WILL OBLITERATE ALL DEMOCRATS, COMMIES AND FASCISTS WHO DARE STAND IN HIS WAY!"
  cbt_exile_sweden:0 "Exile from the Cock and Balls"
@@ -1170,9 +1173,6 @@
  IRE_frank_fahy:0 "Frank Fahy"
  IRE_richard_james_mulcahy:0 "Richard James Mulcahy"
  IRE_a_t_lawlor:0 "A.T. Lawlor"
- GRE_generic_fascist_demagogue:0 "Lois Griffin"
- GRE_generic_democratic_reformer:0 "Bonnie Swanson"
- GRE_generic_communist_revolutionary:0 "Jasper"
  GRE_petros_voulgaris:0 "Freddy Fazbear"
  GRE_alexandros_sakellariou:0 "Bonnie"
  GRE_konstantinos_ventiris:0 "Chica"

@@ -70,6 +70,36 @@ ideas = {
 		
 		traits = { war_industrialist }
 	}
+	idea_lois = {
+		
+		picture = idea_lois
+
+		allowed = {
+			original_tag = GRE
+		}
+		
+		traits = { fascist_demagogue }
+	}
+	idea_bonnie = {
+		
+		picture = idea_bonnie
+
+		allowed = {
+			original_tag = GRE
+		}
+		
+		traits = { democratic_reformer }
+	}
+	idea_jasper = {
+		
+		picture = idea_lois
+
+		allowed = {
+			original_tag = GRE
+		}
+		
+		traits = { communist_revolutionary }
+	}
 }
 
 theorist = {
