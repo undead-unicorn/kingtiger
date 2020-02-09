@@ -71,8 +71,6 @@ ideas = {
 		traits = { war_industrialist }
 	}
 	idea_lois = {
-		
-		picture = idea_lois
 
 		allowed = {
 			original_tag = GRE
@@ -82,8 +80,6 @@ ideas = {
 	}
 	idea_bonnie = {
 		
-		picture = idea_bonnie
-
 		allowed = {
 			original_tag = GRE
 		}
@@ -91,8 +87,6 @@ ideas = {
 		traits = { democratic_reformer }
 	}
 	idea_jasper = {
-		
-		picture = idea_lois
 
 		allowed = {
 			original_tag = GRE
@@ -101,7 +95,6 @@ ideas = {
 		traits = { communist_revolutionary }
 	}
 }
-
 theorist = {
 
 	GRE_nikolaos_plastiras = {
