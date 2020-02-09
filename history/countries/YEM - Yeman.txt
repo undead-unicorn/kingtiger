@@ -66,7 +66,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
+		dictator warmonger rearmer
 	}
 }
 create_faction = "Fanboy & Chum Chum"
