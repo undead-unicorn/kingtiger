@@ -75,6 +75,11 @@ ideas = {
 		allowed = {
 			original_tag = GRE
 		}
+		available = {
+				if = {
+					has_government = fascism
+				}
+				}
 		
 		traits = { fascist_demagogue }
 	}
@@ -83,7 +88,11 @@ ideas = {
 		allowed = {
 			original_tag = GRE
 		}
-		
+		available = {
+				if = {
+					has_government = democratic
+				}	
+				}
 		traits = { democratic_reformer }
 	}
 	idea_jasper = {
@@ -91,7 +100,11 @@ ideas = {
 		allowed = {
 			original_tag = GRE
 		}
-		
+		available = {
+				if = {
+					has_government = communism
+				}
+				}
 		traits = { communist_revolutionary }
 	}
 }
