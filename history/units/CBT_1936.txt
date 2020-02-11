@@ -161,14 +161,6 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
-
-	division = {
-		name = "Gotlands Militärområde"
-		location = 408 # Gotland
-		division_template = "Militärområde"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-	}
 }
 
 ### Flygvapnet ###
@@ -199,7 +191,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
-			creator = "SWE"
+			creator = "CBT"
 		}
 		requested_factories = 1
 		progress = 0.77
@@ -208,7 +200,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "SWE"
+			creator = "CBT"
 		}
 		requested_factories = 1
 		progress = 0.21

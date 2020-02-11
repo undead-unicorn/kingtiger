@@ -1,0 +1,29 @@
+state=
+{
+	id=124
+	name="STATE_124"
+	manpower = 56988
+	
+	state_category = megalopolis
+	
+	history=
+	{
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			408 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		408 6258
+	}
+}
