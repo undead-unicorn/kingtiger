@@ -16,6 +16,7 @@ leader_traits = {
 						type = send_volunteers_desire
 						id = GER
 						value = 400
+					}
 						
 			ai_will_do = {
 				factor = 1

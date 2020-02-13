@@ -1,3 +1,4 @@
+ideas = {
 # MILITARY
 	army_chief = {
 		
@@ -46,3 +47,4 @@
 			}
 		}
 	}
+}

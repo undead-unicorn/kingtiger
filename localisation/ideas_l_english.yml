@@ -2598,3 +2598,6 @@
  GER_carl_friedrich_goerdeler:0 "Carl Friedrich Goerdeler"
  GER_julius_leber:0 "Julius Leber"
  GER_theodor_heuss:0 "Theodor Heuss"
+ CBT_soldier:0 "Soldier"
+ CBT_engineer:0 "Engineer"
+ CBT_spy:0 "Spy"
