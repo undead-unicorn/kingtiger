@@ -572,6 +572,8 @@ focus_tree = {
 		completion_reward = {
 		GER = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
 		ITA = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
+		GRE = { add_opinion_modifier = { target = GER modifier = pact_of_steel_opinion } }
+		GRE = { add_opinion_modifier = { target = ITA modifier = pact_of_steel_opinion } }
 		}
 
 	}
@@ -832,6 +834,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 		ENG = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
+		GRE = { add_opinion_modifier = { target = ENG modifier = pact_of_steel_opinion } }
 		}
 
 	}
@@ -859,6 +862,7 @@ focus_tree = {
 		y = 5
 		completion_reward = {
 		SOV = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
+		GRE = { add_opinion_modifier = { target = SOV modifier = pact_of_steel_opinion } }
 		}
 
 	}
@@ -875,6 +879,8 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 		POR = { add_opinion_modifier = { target = GRE modifier = pact_of_steel_opinion } }
+		GRE = { add_opinion_modifier = { target = POR modifier = pact_of_steel_opinion } }
+		add_country_leader_trait = fnafgamer
 		}
 	}
 ##family guy
