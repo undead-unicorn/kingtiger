@@ -341,3 +341,16 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "comintern_war_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
