@@ -463,5 +463,20 @@ bookmarks = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
+		
+		"ETH"={
+			minor = yes
+			history = "ETHIOPIA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				####
+			}
+			focuses = {
+				ETH_rape1
+				ETH_Subjugate
+				ETH_Aggressive
+			}
+		}
+		
 	}	
 }
