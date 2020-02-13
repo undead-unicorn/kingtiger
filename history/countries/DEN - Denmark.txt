@@ -163,7 +163,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Evil Santa"
-	desc = "POLITICS_FRITS_CLAUSEN_DESC"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = nazism
@@ -174,7 +174,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hungry Santa"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = leninism
@@ -185,7 +185,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Neutral Santa"
-	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
+	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
 	ideology = centrism
