@@ -225,11 +225,11 @@ create_country_leader = {
 create_country_leader = {
 	name = "Q"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "q.dds"
+	picture = "gfx/leaders/CRO/q.dds"
 	expire = "1965.1.1"
 	ideology = collinism
 	traits = {
-		grill
+		grillnoneut
 	}
 }
 
