@@ -2601,3 +2601,6 @@
  CBT_soldier:0 "Soldier"
  CBT_engineer:0 "Engineer"
  CBT_spy:0 "Spy"
+ CBT_generic_fascist_demagogue:0 "Mr. Scrotum"
+ CBT_generic_democratic_reformer:1 "The Overies"
+ CBT_generic_communist_revolutionary:0 "YandereDev"
