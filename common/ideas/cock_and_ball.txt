@@ -4,7 +4,7 @@
 		CBT_spy = {
 			
 			allowed = {
-				original_tag = GRE
+				original_tag = CBT
 			}
 			
 
@@ -19,7 +19,7 @@
 		CBT_engineer = {
 			
 			allowed = {
-				original_tag = GRE
+				original_tag = CBT
 			}
 			
 
@@ -34,7 +34,7 @@
 		CBT_soldier = {
 			
 			allowed = {
-				original_tag = GRE
+				original_tag = CBT
 			}
 			
 
