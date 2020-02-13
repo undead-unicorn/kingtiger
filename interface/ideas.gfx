@@ -4020,4 +4020,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_bonnie.dds"
 	}
 	
+	###Cock And Ball Land
+
+	spriteType = {
+		name = "GFX_idea_CBT_soldier"
+		texturefile = "gfx/interface/ideas/CBT_soldier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_spy"
+		texturefile = "gfx/interface/ideas/CBT_spy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_engineer"
+		texturefile = "gfx/interface/ideas/CBT_engineer.dds"
+	}
 }
