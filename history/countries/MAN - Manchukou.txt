@@ -127,6 +127,30 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Gabriel Shikai"
+	picture = "freak_shikai.dds"
+	traits = { old_guard inflexible_strategist media_personality thorough_planner }
+	skill = 1
+
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gabriel Peifu"
+	picture = "freak_peifu.dds"
+	traits = { infantry_officer bearer_of_artillery harsh_leader scavenger guerilla_fighter }
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
 create_corps_commander = {
 	name = "freakys lapdog"
 	GFX = "GFX_portrait_man_zhang_haipeng"
