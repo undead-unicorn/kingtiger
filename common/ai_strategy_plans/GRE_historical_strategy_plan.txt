@@ -8,10 +8,10 @@ GRE_historical = {
 			AND = {
 				is_historical_focus_on = yes
 			}
-			has_country_flag = GRE_AI_RANDOM_HISTORICAL 
+			has_country_flag = GRE_AI_RANDOM_HISTORICAL
 			has_game_rule = {
 				rule = GRE_ai_behavior
-				option = HISTORICAL
+				option = FAMILY_GUY
 			}
 		}
 	}
@@ -32,6 +32,212 @@ GRE_historical = {
 
 	ideas = {
 		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+GRE_lord = {
+	name = "lord_dracul_la_magra plan"
+	desc = ""
+
+	enable = {
+		original_tag = GRE
+		AND = {
+			has_game_rule = {
+				rule = GRE_ai_behavior
+				option = LORD
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		GRE_One_Five_Mil
+		GRE_Oppress_Peter
+		GRE_Execute_Beter
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+GRE_peter = {
+	name = "nyehehehe hey lois i became the dictator of greece plan"
+	desc = ""
+
+	enable = {
+		original_tag = GRE
+		AND = {
+			has_game_rule = {
+				rule = GRE_ai_behavior
+				option = PETER
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		GRE_One_Five_Mil
+		GRE_Oppress_Peter
+		GRE_Family_Guy_Coup
+		GRE_Family_Conference
+		GRE_Petoria
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+	idea_lois	
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+GRE_brian = {
+	name = "brian plan"
+	desc = ""
+
+	enable = {
+		original_tag = GRE
+		AND = {
+			has_game_rule = {
+				rule = GRE_ai_behavior
+				option = BRIAN
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		GRE_One_Five_Mil
+		GRE_Oppress_Peter
+		GRE_Family_Guy_Coup
+		GRE_Family_Conference
+		GRE_DogsLife
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+	idea_jasper	
+	}
+
+	traits = {
+		
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+GRE_joe = {
+	name = "I cannot walk"
+	desc = ""
+
+	enable = {
+		original_tag = GRE
+		AND = {
+			has_game_rule = {
+				rule = GRE_ai_behavior
+				option = JOE
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		GRE_One_Five_Mil
+		GRE_Oppress_Peter
+		GRE_Family_Guy_Coup
+		GRE_Family_Conference
+		GRE_Crip
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+	idea_bonnie	
 	}
 
 	traits = {
