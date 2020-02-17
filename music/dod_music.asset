@@ -1,17 +1,17 @@
 music = {
-	name = "Aggression"
+	name = "aggression"
 	file = "despicable_punk.ogg"
 	volume = 0.88
 }
 
 music = {
-	name = "Escalation"
+	name = "escalation"
 	file = "spaghetti.ogg"
 	volume = 0.85
 }
 
 music = {
-	name = "Retribution"
+	name = "retribution"
 	file = "imperial_march.ogg"
 	volume = 0.85
 }

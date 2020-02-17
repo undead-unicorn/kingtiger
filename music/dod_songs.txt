@@ -2,7 +2,7 @@
 music_station = "base_music"
 
 music = {
-	song = "Aggression"
+	song = "aggression"
 
 	chance = {
 		factor = 1
@@ -31,7 +31,7 @@ music = {
 }
 
 music = {
-	song = "Escalation"
+	song = "escalation"
 
 	chance = {
 		factor = 1
@@ -63,7 +63,7 @@ music = {
 }
 
 music = {
-	song = "Retribution"
+	song = "retribution"
 
 	chance = {
 		factor = 1
