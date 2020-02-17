@@ -1,6 +1,6 @@
 music = {
 	name = "claustrophobic_march"
-	file = "claustrophobic_march.ogg"
+	file = "ktart.ogg"
 	volume = 0.57
 }
 
@@ -12,12 +12,12 @@ music = {
 
 music = {
 	name = "confederate_flags"
-	file = "confederate_flags.ogg"
+	file = "trump.ogg"
 	volume = 0.62
 }
 
 music = {
 	name = "democratic_movements"
-	file = "democratic_movements.ogg"
+	file = "jojo.ogg"
 	volume = 0.63
 }
