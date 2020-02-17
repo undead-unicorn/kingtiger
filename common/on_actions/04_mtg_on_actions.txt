@@ -681,6 +681,7 @@ on_actions = {
 				}
 				RAJ = {
 					release = BRM
+					leave_faction
 				}
 				AST = {
 					release = PNG
