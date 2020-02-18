@@ -271,14 +271,11 @@ theorist = {
 			}
 		}
 	
-		GRE_napoleon_zervas = {
-			
+		GRE_army_quagmire = {
 			
 			allowed = {
 				original_tag = GRE
 			}
-			
-			picture = generic_army_europe_2
 			
 			traits = { army_infantry_2 }
 			

@@ -4019,6 +4019,11 @@ spriteTypes = {
 		name = "GFX_idea_idea_bonnie"
 		texturefile = "gfx/interface/ideas/idea_bonnie.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_army_quagmire"
+		texturefile = "gfx/interface/ideas/GRE_army_quagmire.dds"
+	}
 	
 	###Cock And Ball Land
 
