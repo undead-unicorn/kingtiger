@@ -199,17 +199,60 @@ create_country_leader = {
 }
 
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Freddy Fazbear"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = { hill_fighter }
+	picture = "fazbear.dds"
+	traits = { substance_abuser career_officer media_personality bearer_of_artillery }
 	skill = 3
 	attack_skill = 1
 	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Glenn Quagmire"
+	picture = "quagmire.dds"
+	traits = { old_guard war_hero ranger hill_fighter }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 3
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Foxy"
+	picture = "foxy.dds"
+	traits = { desert_fox swamp_fox samurai_lineage expert_improviser aggressive_assaulter }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Bonnie"
+	picture = "bonnie.dds"
+	traits = { ## }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Chica"
+	picture = "chica.dds"
+	traits = { substance_addict }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
 
 ### VARIANTS ###
 # 1936 Start #
