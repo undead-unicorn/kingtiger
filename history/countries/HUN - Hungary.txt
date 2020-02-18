@@ -183,6 +183,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+			name = "Peridorky"
+			desc = "POLITICS_MIKLOS_HORTHY_DESC"
+			picture = "peridorky.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				anti_communist 
+		}
+}
+
+create_country_leader = {
 	name = "Árpád Szakasits"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
