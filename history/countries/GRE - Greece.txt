@@ -235,7 +235,9 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Bonnie"
 	picture = "bonnie.dds"
-	traits = { ## }
+	traits = { 
+		## 
+	}
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
