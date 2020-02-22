@@ -350,6 +350,15 @@ GER_reichskommissariats = {
 			controls_state = 142
 			controls_state = 143
 			controls_state = 144
+			controls_state = 38
+			controls_state = 138
+			controls_state = 139
+			controls_state = 140
+			controls_state = 141
+			controls_state = 148
+			controls_state = 213
+			controls_state = 666
+			controls_state = 722
 		}
 
 		cost = 0
@@ -369,29 +378,40 @@ GER_reichskommissariats = {
 		complete_effect = {
 			if = {
 				limit = {
-					country_exists = NOR
-					NOT = { NOR = { has_government = fascism } }
+					country_exists = CBT
+					NOT = { CBT = { has_government = fascism } }
 				}
 				hidden_effect = {
-					NOR = {
+					CBT = {
 						set_state_controller = 110
 						set_state_controller = 142
 						set_state_controller = 143
 						set_state_controller = 144
+						set_state_controller = 213
 					}
+					SWE = {
+						set_state_controller = 38
+						set_state_controller = 138
+						set_state_controller = 139
+						set_state_controller = 140
+						set_state_controller = 141
+						set_state_controller = 148
+						set_state_controller = 666
+						set_state_controller = 722
 				}
-				NOR = {
+				CBT = {
 					start_civil_war = { ideology = fascism size = 1 }
 				}
 				random_country = {
 					limit= {
-						original_tag = NOR
+						original_tag = CBT
 						has_government = fascism
 					}
 					transfer_state = 110
 					transfer_state = 142
 					transfer_state = 143
 					transfer_state = 144
+					transfer_state = 213
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -400,14 +420,15 @@ GER_reichskommissariats = {
 				}
 			}
 			else = {
-				NOR = {
+				CBT = {
 					transfer_state = 110
 					transfer_state = 142
 					transfer_state = 143
 					transfer_state = 144
+					transfer_state = 213
 					set_cosmetic_tag = NOR_reichskommissariat
 				}
-				set_autonomy = { target = NOR autonomy_state = autonomy_integrated_puppet }
+				set_autonomy = { target = CBT autonomy_state = autonomy_integrated_puppet }
 			}
 		}
 	}
