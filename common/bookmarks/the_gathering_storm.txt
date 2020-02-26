@@ -416,6 +416,7 @@ bookmarks = {
 			}
 		}
 		"FRA"={
+			minor = yes
 			history = "FRA_GATHERING_STORM_DESC"
 			ideology = democratic
 			available = { has_dlc = "La Resistance" } 
