@@ -172,6 +172,10 @@ ideologies = {
 			
 			centrism = {
 			}
+			
+			anarchism = {
+			
+			}
 		}
 
 		dynamic_faction_names = {

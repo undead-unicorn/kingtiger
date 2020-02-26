@@ -3186,4 +3186,14 @@
  liberia.1.d:0 "Last night at 10:00pm, our beloved leader The Coleman unfortunately passed away due to stairfall."
  liberia.1.a:0 "Bring in the Postal Guy"
  liberia.1.b:0 "Bring in Postal Coleman"
- 
+ spain.11.t:0 "McQueen's Uprising"
+ spain.11.d:0 "Carlists B mad, yo!" ##This is not me doing this this was base game this is actually in the base game files what the fuck paradox
+ spain.11.a:0 "Oh noes" ##I'm like a time traveller yo I'm adding the ## to this one after I did the two just after isn't that mental mental chicken oriental yeah I didn't notice this one till after I did the other two lol
+ spain.12.t:0 "Johnny Test Uprising"
+ spain.12.d:0 "Anarchists B mad, yo!" ##Same with this little shit
+ spain.12.a:0 "Oh noes" ##and this little shit
+ lar_test.1.t:0 "TODO_LAR_BC: Test Title"
+ lar_test.1.d:0 "TODO_LAR_BC: this is a test\nThis:[This.GetName]\nFrom:[From.GetName]\nFrom.From:[From.From.GetName]\nRoot:[Root.GetName]\n"
+ lar_collab_gov.1.t:0 "[From.GetAdjective] Partisans in [Root.GetNameDef]"
+ lar_collab_gov.1.d:0 "[From.GetNameDefCap] have recently increased their efforts to build collaboration within our nation. A number of [This.GetAdjective] politicians have started speaking rather sympathetically about the [From.GetAdjective] regime, and many partisans within our nation are turning their [From.GetRulingIdeology] sentiment into direct support for [From.GetNameDef].\n\nThe growing [From.GetAdjective] influence in our nation will undoubtedly lower [Root.GetAdjective] resistance and may even lead to a new [From.GetRulingIdeology] government in collaboration with [From.GetNameDef] in the event that [Root.GetNameDef] should capitulate."
+

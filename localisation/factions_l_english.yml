@@ -1,5 +1,4 @@
-﻿  
-l_english:
+﻿l_english:
  FACTION_LEADER:0 "Faction leader: §Y$COUNTRY$§!"
  FACTION_MEMBER:0 "Faction member: §Y$COUNTRY$§!"
  FACTION_CREATED_UNDER_MASTER_TITLE:0 "Joined Master's Faction"
@@ -64,3 +63,12 @@ l_english:
  MTG_USA_NORTH_AMERICAN_DOMINION_FACTION:0 "The Coalition"
  anglo_italian_pact:1 "Merf-Pringle Pact"
  ENG_coalition_of_free_commonwealth_states:0 "Coalition of Free Commonwealth States"
+ FRA_stresa_front:0 "Followers of Jah"
+ FRA_legitimist_faction:0 "Royal Alliance"
+ FRA_communist_faction:0 "John Accords"
+ SPA_latin_bloc:0 "Followers of Jah"
+ SPC_international_bureau_of_revolutionary_socialist_unity:0 "International Bureau of Revolutionary Socialist Unity"
+ POR_popular_front_bloc:0 "Popular Front Bloc"
+ POR_royal_iberian_alliance:0 "Royal Iberian Alliance"
+ FRA_confederation_of_the_rhine:0 "Confédération du Flannel"
+ FRA_orleanist_faction:0 "Anti-Dorito Bloc"
