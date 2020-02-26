@@ -5,7 +5,7 @@ Drop the contents of this git INTO the mod folder
 
 Make sure the .mod file has the following details:
 
-version="1.8.2"
+version="1.9.*"
 
 tags={
 
@@ -25,7 +25,7 @@ name="King Tiger Mod"
 
 picture="thumbnail.jpg"
 
-supported_version="1.8.1"
+supported_version="1.9.*"
 
 path="C:/Users/jewnicorn/Documents/Paradox Interactive/Hearts of Iron IV/mod/King Tiger Mod"
 
