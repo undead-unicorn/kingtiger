@@ -4522,7 +4522,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_CBT_cum_man_senior"
-		texturefile = "gfx/interface/ideas/CBT_cum_man.dds"
+		texturefile = "gfx/interface/ideas/CBT_cum_man_senior.dds"
 	}
 
 	spriteType = {

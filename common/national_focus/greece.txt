@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_One_Five_Mil
-		icon = GFX_focus_yug_pan_slavic_congress
+		icon = GFX_focus_spr_anarchism_knows_no_borders
 		cost = 20.00
 		x = 8
 		y = 0
@@ -52,7 +52,7 @@ focus_tree = {
 ##normal
 	focus = {
 		id = GRE_Big_Balls
-		icon = GFX_goal_tfv_smiling_buddha
+		icon = GFX_focus_up_joan_of_arc
 		available = {
 		has_government = neutrality }
 		cost = 10.00
@@ -701,7 +701,7 @@ focus_tree = {
 ##family guy
 	focus = {
 		id = GRE_Family_Guy_Coup
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_focus_focus_fra_fascist_threat
 		available = {
 		has_government = neutrality
 		date < 1936.10.10
@@ -736,7 +736,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GRE_Petoria
-		icon = GFX_goal_support_fascism
+		icon = GFX_focus_generic_monarchy_2
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_Family_Conference
@@ -761,7 +761,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRE_DogsLife
-		icon = GFX_goal_support_communism
+		icon = GFX_focus_fra_loyalty_stalin
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_Family_Conference
@@ -786,7 +786,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_Crip
-		icon = GFX_goal_support_democracy
+		icon = GFX_focus_focus_fra_revolution_upmost
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_Family_Conference
