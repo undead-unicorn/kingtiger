@@ -856,12 +856,82 @@ leader_traits = {
 		}
 	}
 
+	tenacious_negotiator = {
+		random = yes
+		political_power_factor = 0.1
+		trade_opinion_factor = 0.25
+	}
+
+	national_integralist = {
+		sprite = 13
+		random = yes
+		political_power_factor = 0.15
+		stability_weekly = 0.001
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	retired_officer = {
+		random = yes
+		war_support_factor = 0.05
+		high_command_cost_factor = -0.25
+		air_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	eager_collaborator = {
+		random = yes
+		send_volunteer_size = 2
+		improve_relations_maintain_cost_factor = -1
+		fascism_acceptance = 75
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	constitutional_monarch = {
+		random = no
+		stability_weekly = 0.01
+		political_power_gain = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	duke_of_orleans = {
+		random = no
+		neutrality_drift = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	count_of_paris = {
+		random = no
+		global_building_slots_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	anti_democrat = {
 		random = no
 		democratic_acceptance = -50
 		democratic_drift = -0.02
 		stability_factor = 0.10
 
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	emergency_powers = {
+		random = no
+		political_power_gain = 0.5
 		ai_will_do = {
 			factor = 1
 		}
@@ -1441,6 +1511,15 @@ leader_traits = {
 		}
 	}
 	
+	reluctant_interventionist = {
+		random = yes
+		stability_factor = 0.05
+		lend_lease_tension = -0.2
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
 	quartermaster_general = {
 		sprite = 10
 		random = yes
