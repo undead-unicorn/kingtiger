@@ -4024,7 +4024,7 @@ spriteTypes = {
 		name = "GFX_idea_GRE_army_quagmire"
 		texturefile = "gfx/interface/ideas/GRE_army_quagmire.dds"
 	}
-	
+	#La Resistance
 	#FRA LAR
 
 	spriteType = {
@@ -4509,4 +4509,30 @@ spriteTypes = {
 		name = "GFX_idea_CBT_engineer"
 		texturefile = "gfx/interface/ideas/CBT_engineer.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_demo"
+		texturefile = "gfx/interface/ideas/CBT_demo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_boulder_hat"
+		texturefile = "gfx/interface/ideas/CBT_boulder_hat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_cum_man_senior"
+		texturefile = "gfx/interface/ideas/CBT_cum_man.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_fat"
+		texturefile = "gfx/interface/ideas/CBT_fat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CBT_scary_spy_man"
+		texturefile = "gfx/interface/ideas/CBT_scary_spy_man.dds"
+	}
+	##Final Bracket (I kept getting confuzzled)
 }

@@ -1,8 +1,90 @@
 ideas = {
+# POLITICAL
+	political_advisor = {
+
+	CBT_spy = {
+		
+			allowed = {
+				original_tag = CBT
+			}
+
+
+			traits = { based_cbt_spy_man }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+	CBT_cum_man_senior = {
+		
+			allowed = {
+				original_tag = CBT
+			}
+
+
+			traits = { railroad_enthusiast }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	
+	CBT_scary_spy_man = {
+		
+			allowed = {
+				original_tag = CBT
+			}
+
+
+			traits = { shadow_of_calles }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+	CBT_boulder_hat = {
+		
+			allowed = {
+				original_tag = CBT
+			}
+
+
+			traits = { technocrat }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+
+
+##last bracket I kept getting confused ok get off my case you're not me mum
+	}
+#THEORISTS
+	theorist = {
+
+		CBT_fat = {
+
+			allowed = {
+				original_tag = CBT
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+	}
 # MILITARY
 	army_chief = {
 		
-		CBT_spy = {
+		CBT_demo = {
 			
 			allowed = {
 				original_tag = CBT

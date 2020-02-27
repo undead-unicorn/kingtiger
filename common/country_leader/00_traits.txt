@@ -523,6 +523,13 @@ leader_traits = {
 		operative_slot = 1
 		agency_upgrade_time = -0.15
 	}
+
+	based_cbt_spy_man = {
+		random = no
+		sprite = 15
+		operative_slot = 3
+		political_power_factor = -0.10
+	}
 	
 	mastermind_code_cracker = {
 		random = no
