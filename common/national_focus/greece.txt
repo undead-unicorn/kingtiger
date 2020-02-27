@@ -786,7 +786,7 @@ focus_tree = {
 
 	focus = {
 		id = GRE_Crip
-		icon = GFX_focus_focus_fra_revolution_upmost
+		icon = GFX_focus_generic_manpower
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_Family_Conference
