@@ -515,6 +515,21 @@ leader_traits = {
 		production_speed_buildings_factor = 0.01
 	}
 	
+	#ESPIONAGE IDEAS#
+	
+	head_of_intelligence = {
+		random = no
+		sprite = 15
+		operative_slot = 1
+		agency_upgrade_time = -0.15
+	}
+	
+	mastermind_code_cracker = {
+		random = no
+		sprite = 15
+		decryption_power = 15
+	}
+	
 	
 #ai_focus_defense_factor
 #ai_focus_aggressive_factor
@@ -628,6 +643,17 @@ leader_traits = {
 		}
 	}
 
+	hawk = {
+		random = yes
+		sprite = 13
+		war_support_factor = 0.1
+		stability_factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	cornered_fox = {
 		random = no
 		army_defence_factor = 0.15
@@ -691,7 +717,7 @@ leader_traits = {
 
 	revolutionary_general = { #Francisco José Mugica
 		random = no
-		partisan_effect = 0.25
+		resistance_growth_on_our_occupied_states = 0.25 
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
 		theorist_cost_factor = -0.25
@@ -763,6 +789,26 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	conservative_nationalist = { #Antonio de Oliveira Salazar - Vanilla
+		random = no
+		stability_factor = 0.1
+		production_speed_infrastructure_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	conservative_nationalist_lar = { #Antonio de Oliveira Salazar - LAR 
+		random = no
+		stability_weekly = 0.005
+		production_speed_infrastructure_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	the_silver_president = { #Juan Andreu
 		random = no
@@ -789,6 +835,16 @@ leader_traits = {
 		industrial_capacity_factory = 0.1
 		drift_defence_factor = 0.15
 		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	devoted_trotskyist = { #Hernan Laborde Devoted Trotkyist
+		random = no
+		war_support_factor = 0.05
+		subversive_activites_upkeep = -0.25
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -849,7 +905,9 @@ leader_traits = {
 	}
 	appeaser = {
 		random = yes
-		war_support_factor = -0.1
+		sprite = 13
+		war_support_factor = -0.05
+		stability_factor = 0.1
 
 		ai_will_do = {
 			factor = 1
@@ -928,7 +986,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
 	emergency_powers = {
 		random = no
 		political_power_gain = 0.5
@@ -1064,7 +1121,7 @@ leader_traits = {
 	little_churchill = {
 		random = no
 		war_support_factor = 0.05
-		partisan_effect = 0.15
+		resistance_growth_on_our_occupied_states = 0.15
 	}
 
 	wilhelmina = {
@@ -1091,7 +1148,7 @@ leader_traits = {
 	queen_of_the_people = {
 		random = no
 		war_support_factor = 0.1
-		partisan_effect = 0.25
+		resistance_target_on_our_occupied_states = 0.25
 	}
 
 	leider = {
@@ -1229,6 +1286,7 @@ leader_traits = {
 		}
 	}
 
+
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
@@ -1363,7 +1421,6 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
 	technocrat = {
 		sprite = 13
 		
@@ -1386,7 +1443,7 @@ leader_traits = {
 	
 	prince_of_terror = {
 		sprite = 13
-		enemy_partisan_effect = -0.25
+		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
 		
@@ -1489,6 +1546,7 @@ leader_traits = {
 			factor = 2
 		}
 	}
+
 	editor = {
 		sprite = 10
 		random = yes
@@ -1503,14 +1561,13 @@ leader_traits = {
 	armaments_organizer = {
 		sprite = 10
 		random = yes
-		conversion_cost_civ_to_mil_factor= -0.2
+		conversion_cost_civ_to_mil_factor = -0.2
 		# civ_to_mil_industry_conversion_rate = -1
 		
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
 	reluctant_interventionist = {
 		random = yes
 		stability_factor = 0.05
@@ -1555,6 +1612,7 @@ leader_traits = {
 	### BRITISH TRADE UNION MINISTER TRAITS ###
 
 	propaganda_bungler = {
+		random = no
 		sprite = 13
 		war_support_factor = 0.05
 		
@@ -1564,7 +1622,7 @@ leader_traits = {
 	}
 	
 	silent_mule = {
-		random = yes
+		random = no
 		sprite = 13
 		political_power_factor = 0.05
 		
@@ -1575,7 +1633,7 @@ leader_traits = {
 	
 	baron_of_terror = {
 		sprite = 13
-		enemy_partisan_effect = -0.15
+		resistance_damage_to_garrison = -0.15 
 		foreign_subversive_activites = -0.15
 		non_core_manpower = 0.01
 		
@@ -1585,7 +1643,7 @@ leader_traits = {
 	}
 	
 	compassionate_commoner = {
-		random = yes
+		random = no
 		sprite = 13
 		opinion_gain_monthly_factor = 0.05
 		
@@ -1596,6 +1654,7 @@ leader_traits = {
 	
 	backroom_windbag = {
 		sprite = 13
+		random = no
 		political_power_factor = 0.02
 		drift_defence_factor = 0.05
 		
@@ -1605,7 +1664,7 @@ leader_traits = {
 	}
 	
 	smooth_talking_con_man = {
-		random = yes
+		random = no
 		sprite = 13
 		trade_opinion_factor = 0.05
 		
@@ -1615,7 +1674,7 @@ leader_traits = {
 	}
 	
 	ideological_groupie = {
-		random = yes
+		random = no
 		sprite = 13
 		opinion_gain_monthly_same_ideology_factor = 0.05
 		
@@ -1626,7 +1685,7 @@ leader_traits = {
 	
 	fortification_armchair_general = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_bunker_factor = 0.1
 		production_speed_coastal_bunker_factor = 0.1
 		production_speed_anti_air_building_factor = 0.1
@@ -1638,7 +1697,7 @@ leader_traits = {
 	
 	war_profiteer = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_arms_factory_factor = 0.05
 		production_speed_dockyard_factor = 0.05
 		
@@ -1649,7 +1708,7 @@ leader_traits = {
 	
 	lieutenant_of_industry = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_industrial_complex_factor = 0.05
 		production_speed_infrastructure_factor = 0.05
 		production_speed_synthetic_refinery_factor = 0.05
@@ -1661,7 +1720,7 @@ leader_traits = {
 
 	finance_graduate = {
 		sprite = 10
-		random = yes
+		random = no
 		consumer_goods_factor = -0.02
 		
 		ai_will_do = {
@@ -1669,9 +1728,10 @@ leader_traits = {
 		}
 	}
 	
+	
 	armaments_aficionado = {
 		sprite = 10
-		random = yes
+		random = no
 		conversion_cost_civ_to_mil_factor= -0.1
 		# civ_to_mil_industry_conversion_rate = -1
 		
@@ -1682,7 +1742,7 @@ leader_traits = {
 	
 	quartermaster_trainee = {
 		sprite = 10
-		random = yes
+		random = no
 		production_speed_air_base_factor = 0.05
 		production_speed_naval_base_factor = 0.05
 		production_speed_rocket_site_factor = 0.05
@@ -1733,7 +1793,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		enemy_partisan_effect = -0.25
+		resistance_damage_to_garrison = -0.25 
 		foreign_subversive_activites = -0.3
 		non_core_manpower = 0.02
 		
@@ -1819,7 +1879,7 @@ leader_traits = {
 		sprite = 10
 
 		consumer_goods_factor = -0.1
-		partisan_effect = 0.1
+		resistance_growth_on_our_occupied_states = 0.1 
 		
 		ai_will_do = {
 			factor = 1
@@ -2175,6 +2235,14 @@ leader_traits = {
 			factor = 500
 		}
 	}
+
+	aircraft_manufacturer = {
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	light_aircraft_manufacturer = {
 		random = no
@@ -2302,6 +2370,35 @@ leader_traits = {
 		equipment_bonus = {
 			armor = {
 				maximum_speed = 0.05 reliability = 0.1 
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	armored_car_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armored_car_equipment = {
+				maximum_speed = 0.05
+				soft_attack = 0.05
+				hard_attack = 0.05
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	infantry_tank_manufacturer = {
+		random = no
+		equipment_bonus = {
+			armor = {
+				soft_attack = 0.05
+				armor_value = 0.05
 			}
 		}
 		
@@ -2442,6 +2539,22 @@ leader_traits = {
 		equipment_bonus = {
 			screen_ship = {
 				naval_range = 0.3 sub_detection = 0.1 naval_speed = 0.1 build_cost_ic = 0.1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mediterranean_naval_manufacturer = {
+		random = no
+		equipment_bonus = {
+			capital_ship = {
+				naval_range = -0.25 naval_speed = 0.1
+			}
+			screen_ship = {
+				naval_range = -0.25 naval_speed = 0.1 
 			}
 		}
 		
@@ -3080,7 +3193,7 @@ leader_traits = {
 	
 	air_chief_reform_2 = {  # Rate at which air experience is gained increases by 10%
 		sprite = 5
-		experience_gain_air_factor = 0.1
+		experience_gain_air_factor = 0.075
 		
 		ai_will_do = {
 			factor = 2
@@ -3089,7 +3202,7 @@ leader_traits = {
 	
 	air_chief_reform_3 = {  # Rate at which air experience is gained increases by 15%
 		sprite = 5
-		experience_gain_air_factor = 0.15
+		experience_gain_air_factor = 0.1
 		
 		ai_will_do = {
 			factor = 3
