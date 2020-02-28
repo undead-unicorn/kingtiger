@@ -171,3 +171,11 @@ music = {
 	file = "soldier_masked_spy.ogg"
 	volume = 0.65
 }
+
+##Ram Ranch-- significantly lower chance of playing than any other song
+
+music = {
+	name = "ram_ranch_evil"
+	file = "ram_ranch.ogg"
+	volume = 0.65
+}
