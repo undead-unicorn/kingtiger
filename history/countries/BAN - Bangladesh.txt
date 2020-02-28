@@ -62,7 +62,7 @@ create_country_leader = {
 	name = "Cannibal"
 	picture = "can.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = anarchism
 	traits = {
 		#
 	}
