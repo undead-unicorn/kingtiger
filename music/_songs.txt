@@ -367,3 +367,15 @@ music = {
 		}		
 	}	
 }
+
+##RAM RANCH THE REVENGE-- very low chance of playing
+
+music = {
+	song = "ram_ranch_evil"
+	
+	chance = {
+		modifier = {
+			factor = 0.2
+		}
+	}
+}
