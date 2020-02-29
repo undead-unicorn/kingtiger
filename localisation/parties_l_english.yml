@@ -236,6 +236,8 @@
  BRA_democratic_party_long:1 "União Democrática Brasileira"
  BRA_neutrality_party:0 "Estado Novo"
  BRA_neutrality_party_long:0 "Estado Novo"
+ BRA_monarchy_party:0 "TDFAMU"
+ BRA_monarchy_party_long:0 "The Devin Foxy Among Us"
  TUR_fascism_party:0 "Millet Partisi"
  TUR_fascism_party_long:0 "Millet Partisi"
  TUR_communism_party:0 "TKP"
