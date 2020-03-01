@@ -938,4 +938,6 @@
  develop_nejd_oil_fields:0 "Develop Ghawar Oil Fields"
  develop_eastern_desert_oil_fields:0 "Develop Ras Gharib Oil Fields"
  develop_qatar_oil_fields:0 "Develop Dukhan Oil Fields"
+ IRQ_robico:0 "Form Robico"
+ IRQ_robico_desc:0 "Robico must be formed, even if it is by force!"
 
