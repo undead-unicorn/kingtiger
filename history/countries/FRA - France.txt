@@ -238,6 +238,12 @@ add_ideas = {
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
+##Vietnam Puppet
+set_autonomy = {
+		target = VIN
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
 
 give_guarantee = CZE
 give_guarantee = YUG
