@@ -102,9 +102,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Robert Zedong"
-	desc = ""
-	picture = "robert.dds"
+	name = "About to Sleep Robert"
+	picture = "bed.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -112,9 +111,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Robert E. Kuss"
+	name = "Sleepy Robert"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "robert.dds"
+	picture = "sleepy.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
