@@ -82,9 +82,9 @@ set_popularities = {
 
 # Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
 create_country_leader = {
-	name = "Rafael Franco"
+	name = "Cringe Ass Nae Nae Baby"
 	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
+	picture = "baby.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
