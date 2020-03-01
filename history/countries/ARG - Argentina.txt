@@ -143,9 +143,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Agustín Pedro Justo"
+	name = "Bill Nye the Pizza Pie"
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
-	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
+	picture = "bill.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
