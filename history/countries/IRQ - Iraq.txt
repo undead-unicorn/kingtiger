@@ -156,6 +156,3 @@ create_field_marshal = {
 }
 create_faction = "Robican Alliance"
 add_to_faction = IRQ
-add_to_faction = BRA
-add_to_faction = PER
-add_to_faction = IRE
