@@ -61,23 +61,23 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.1.24"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 98
+	neutrality = 98
 	fascism = 1
 	communism = 1
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1938.6.17"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 create_country_leader = {
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "estie.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
 	}
