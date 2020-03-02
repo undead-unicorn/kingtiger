@@ -165,7 +165,7 @@ focus_tree = {
 		}      
 
 	}
-##Devin Coup- doesn't work as intended
+##Devin Coup
 	focus = {
 		id = rob_devincoup
 		icon = GFX_focus_SAF_colonialist_crusade
@@ -186,14 +186,13 @@ focus_tree = {
 		    VEN = {
                 add_popularity = {
                     ideology = neutrality
-                    popularity = 1
+                    popularity = 1 }
                 set_politics = {
 	                ruling_party = neutrality
 	                }
 	            }    
             }
-        }    
-##Bela Coup - doesn't appear to work
+##Bela Coup
 	}
 	focus = {
 		id = rob_belacoup
@@ -209,13 +208,12 @@ focus_tree = {
 		    BOL = {
                 add_popularity = {
                     ideology = neutrality
-                    popularity = 1
+                    popularity = 1 }
                 set_politics = {
 	                ruling_party = neutrality
 	                }
 	            }    
             }
-        }  
 
 	}
 	focus = {
@@ -794,7 +792,7 @@ focus_tree = {
                 }
             }
         }  
-##Saddam Hussein coup- doesn't work as intended
+##Saddam Hussein coup
 	}
 	focus = {
 		id = rob_sadaam
@@ -821,16 +819,14 @@ focus_tree = {
 		completion_reward = {
 		    add_popularity = {
 	          ideology = fascism
-	          popularity = 100
+	          popularity = 1 }
             set_politics = {
 	          ruling_party = fascism
 	          elections_allowed = no
 	            }
 	        }  
-        }
 
 	}
-##Doesn't work as intended
 	focus = {
 		id = rob_stay
 		icon = GFX_goal_generic_neutrality_focus
@@ -927,7 +923,7 @@ focus_tree = {
 		}
 
 	}
-##Go To Bed- doesn't work
+##Go To Bed
 	focus = {
 		id = rob_gotobed
 		icon = GFX_goal_generic_support_democracy
@@ -952,16 +948,15 @@ focus_tree = {
 		completion_reward = {
 		    add_popularity = {
 	          ideology = democratic
-	          popularity = 100
+	          popularity = 1 }
             set_politics = {
 	          ruling_party = democratic
 	          elections_allowed = yes
 	            }
 	        }  
-        }
 
 	}
-##Sleepy- doesn't work
+##Sleepy
 	focus = {
 		id = rob_sleepy
 		icon = GFX_goal_generic_war_with_comintern
@@ -986,13 +981,12 @@ focus_tree = {
 		completion_reward = {
 		    add_popularity = {
 	          ideology = communism
-	          popularity = 100
+	          popularity = 1 }
             set_politics = {
 	          ruling_party = communism
 	          elections_allowed = no
 	            }
 	        }  
-        }
 
 	}
 	focus = {
