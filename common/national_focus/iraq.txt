@@ -8,6 +8,9 @@ focus_tree = {
 		}
 	}
 	default = no
+
+	continuous_focus_position = { x = 70 y = 2000 }
+
 	focus = {
 		id = rob_strengthentherobicans
 		icon = GFX_goal_generic_improve_relations
