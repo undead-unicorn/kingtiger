@@ -162,6 +162,7 @@ focus_tree = {
 		}      
 
 	}
+##Devin Coup- doesn't work as intended
 	focus = {
 		id = rob_devincoup
 		icon = GFX_focus_SAF_colonialist_crusade
@@ -189,7 +190,7 @@ focus_tree = {
 	            }    
             }
         }    
-
+##Bela Coup - doesn't appear to work
 	}
 	focus = {
 		id = rob_belacoup
@@ -790,7 +791,7 @@ focus_tree = {
                 }
             }
         }  
-
+##Saddam Hussein coup- doesn't work as intended
 	}
 	focus = {
 		id = rob_sadaam
@@ -826,6 +827,7 @@ focus_tree = {
         }
 
 	}
+##Doesn't work as intended
 	focus = {
 		id = rob_stay
 		icon = GFX_goal_generic_neutrality_focus
@@ -922,6 +924,7 @@ focus_tree = {
 		}
 
 	}
+##Go To Bed- doesn't work
 	focus = {
 		id = rob_gotobed
 		icon = GFX_goal_generic_support_democracy
@@ -955,6 +958,7 @@ focus_tree = {
         }
 
 	}
+##Sleepy- doesn't work
 	focus = {
 		id = rob_sleepy
 		icon = GFX_goal_generic_war_with_comintern
