@@ -81,11 +81,11 @@ set_popularities = {
 	}
 }
 create_country_leader = {
-	name = "Estie"
+	name = "Pleasant Estie"
 	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
 	picture = "estie.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -114,9 +114,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Norton"
+	name = "Estie"
 	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "estie.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
