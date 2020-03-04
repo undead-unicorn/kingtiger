@@ -721,7 +721,6 @@ focus_tree = {
 			focus = rob_killjohn
 		}
 		available = {
-		    any_allied_country = {
 		        owns_state = 266
 		        owns_state = 679
 		    }
