@@ -462,9 +462,7 @@ focus_tree = {
 			focus = rob_hasdied
 		}
 		available = {
-		    any_allied_country = {
-		        owns_state = 679
-		    }
+		    owns_state = 679
 		} 
 		x = 10
 		y = 9
