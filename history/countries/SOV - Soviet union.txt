@@ -347,9 +347,9 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksandr Vasilevsky"
+	name = "Boutta Drop Da Cat"
 	id = 407
-		picture = "Portrait_Soviet_Aleksandr_Vasilevsky.dds"
+		picture = "drop.dds"
 	traits = { armor_officer politically_connected }
 	skill = 4
 
