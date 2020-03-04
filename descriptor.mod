@@ -7,7 +7,7 @@ tags={
 	"Map"
 	"Collin Joe"
 	"King Tiger"
-	"Meme"
+	"Memes"
 	"Funny"
 }
 name="King Tiger Mod"
