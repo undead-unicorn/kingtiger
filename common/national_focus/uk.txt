@@ -7373,6 +7373,8 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
+	    }
+		
 	}
 
 	focus = {
