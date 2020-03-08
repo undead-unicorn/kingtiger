@@ -1,4 +1,4 @@
-﻿capital = 112
+capital = 112
 
 oob = "POR_1936"
 if = {
@@ -228,7 +228,7 @@ if = {
 	create_country_leader = {
 		name = "Devin Marx"
 		desc = "POLITICS_BENTO_GONCALVES_DESC"
-		picture = "gfx/leaders/POR/devin.dds"
+		picture = "gfx/leaders/POR/commiedevin.dds"
 		expire = "1965.1.1"
 		ideology = marxism
 		traits = {
@@ -237,9 +237,9 @@ if = {
 	}
 	
 	create_country_leader = {
-		name = "The King of FNaF"
+		name = "Lord King Soldier"
 		desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-		picture = "gfx/leaders/POR/kingoffnaf.dds"
+		picture = "gfx/leaders/POR/lordsoldier.dds"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
@@ -248,9 +248,9 @@ if = {
 	}
 	
 	create_country_leader = {
-		name = "Pussy Ass Devin Foxy NIGGA"
+		name = "Medic Helper 1.8"
 		desc = "POLITICS_JOSE_NORTON_DE_MATOS_DESC"
-		picture = "gfx/leaders/POR/devin.dds"
+		picture = "gfx/leaders/POR/medic.dds"
 		expire = "1965.1.1"
 		ideology = liberalism
 		traits = {
@@ -260,8 +260,8 @@ if = {
 	
 	
 	create_field_marshal = {
-		name = "José Vicente de Freitas"
-		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+		name = "God Power Heavy American"
+		portrait_path = "gfx/leaders/POR/heavy.dds"
 		traits = { old_guard politically_connected }
 		skill = 3
 	
@@ -325,7 +325,7 @@ if = {
 	create_country_leader = {
 		name = "Devin Marx"
 		desc = "POLITICS_BENTO_GONCALVES_DESC"
-		picture = "gfx/leaders/South America/devin.dds"
+		picture = "gfx/leaders/South America/commiedevin.dds"
 		expire = "1965.1.1"
 		ideology = marxism
 		traits = {
@@ -334,9 +334,9 @@ if = {
 	}
 	
 	create_country_leader = {
-		name = "The King of FNaF"
+		name = "Lord King Soldier"
 		desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-		picture = "gfx/leaders/South America/kingoffnaf.dds"
+		picture = "gfx/leaders/South America/lordsoldier.dds"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
