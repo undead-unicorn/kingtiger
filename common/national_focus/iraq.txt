@@ -723,8 +723,7 @@ focus_tree = {
 		available = {
 		        owns_state = 266
 		        owns_state = 679
-		    }
-		}   
+		    }  
 		x = 14
 		y = 6
 
@@ -1403,5 +1402,7 @@ focus_tree = {
             transfer_state = 457
             add_state_core = 457
         }
-
+		
+    }
 }
+
