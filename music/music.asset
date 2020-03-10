@@ -1,7 +1,7 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "kashmir.ogg"
+	file = "crazy_train.ogg"
 	volume = 0.75
 }
 
