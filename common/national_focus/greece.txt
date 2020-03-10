@@ -32,7 +32,7 @@ focus_tree = {
 ##family guy
 	focus = {
 		id = GRE_Family_Conference
-		icon = GFX_goal_flag_greece
+		icon = GFX_goal_greece
 		available = {
 		OR = {
 		has_government = communism
