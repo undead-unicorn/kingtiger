@@ -69,9 +69,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Federico Páez"
+	name = "Tense1983"
 	desc = "POLITICS_FEDERICO_PAEZ_DESC"
-	picture = "GFX_Portrait_ecuador_federico_paez"
+	picture = "tense.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -81,9 +81,9 @@ create_country_leader = {
 
 1939.1.1 = {
 	create_country_leader = {
-		name = "Aurelio Mosquera"
+		name = "Tense1983"
 		desc = "POLITICS_AURELIO_MOSQUERA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "tense.dds"
 		expire = "1965.1.1"
 		ideology = liberalism
 		traits = {
