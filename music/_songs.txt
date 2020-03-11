@@ -60,6 +60,18 @@ music = {
 }
 
 music = {
+	song = "general_peace_5"
+	
+	chance = {
+		modifier = {
+			factor = 0.5
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
 	song = "allies_peace_1"
 	
 	chance = {
