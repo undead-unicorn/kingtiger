@@ -67,9 +67,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ricardo Jiménez Oreamuno"
+	name = "Alexandria Ocasio-Cortez"
 	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-	picture = "GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
+	picture = "aoc.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -91,9 +91,9 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "León Cortés Castro"
+		name = "Alexandria Ocasio-Cortez"
 		desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+		picture = "aoc.dds"
 		expire = "1965.1.1"
 		ideology = liberalism
 		traits = {
