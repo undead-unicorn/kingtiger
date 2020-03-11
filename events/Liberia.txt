@@ -32,9 +32,9 @@ country_event = {
         news_event = { id = news.999 }
         kill_country_leader = yes
         create_country_leader = {
-            name = "Postal Guy"
+            name = "Young Coleman"
             desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-            picture = "postal.dds"
+            picture = "young.dds"
             expire = "1965.1.1"
             ideology = fascism_ideology
         }
