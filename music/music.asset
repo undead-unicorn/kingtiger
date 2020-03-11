@@ -29,7 +29,7 @@ music = {
 music = {
 	name = "general_peace_5"
 	file = "heartshaker.ogg"
-	volume = 0.80
+	volume = 0.60
 }
 # General war:
 music = {
