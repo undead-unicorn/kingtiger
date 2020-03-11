@@ -26,6 +26,11 @@ music = {
 	file = "markiplier.ogg"
 	volume = 0.80
 }
+music = {
+	name = "general_peace_5"
+	file = "heartshaker.ogg"
+	volume = 0.80
+}
 # General war:
 music = {
 	name = "general_war_1"
