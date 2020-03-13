@@ -62,6 +62,14 @@ leader_traits = {
 				factor = 1
 			}
 		}
+	roberthelper = {
+			random = no
+			ai_join_ally_desire_factor = 100
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
 	fnafgamer = {
 			random = yes
 			ai_strategy = {
