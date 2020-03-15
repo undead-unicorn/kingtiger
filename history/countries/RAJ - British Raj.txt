@@ -134,7 +134,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Toastythe13yearold"
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	picture = "toasty.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -144,9 +144,9 @@ create_country_leader = {
 
 # REVISIT Unclear if appropriate for this ideology
 create_country_leader = {
-	name = "V. D. Savarkar"
+	name = "Maxi the Chicken Queen"
 	desc = "POLITICS_VD_SAVARKAR_DESC"
-	picture = "GFX_RAJ_veer_savarkar"
+	picture = "maxi.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
@@ -155,9 +155,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "P. Krishna Pillai"
+	name = "NinjaForU"
 	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
-	picture = "GFX_RAJ_krishna_pillai"
+	picture = "ninja.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -166,9 +166,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "B. P. Sitaramayya"
+	name = "Jacob Azreal"
 	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	picture = "jacob.dds"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
@@ -177,11 +177,11 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Noel Beresford-Peirse"
-	gfx = "GFX_RAJ_noel_beresford_peirse"
+	name = "Scary Indian Man"
+	gfx = "scaryman.dds"
 	traits = { armor_officer }
 	skill = 3
-	attack_skill = 3
+	attack_skill = 9
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 1
