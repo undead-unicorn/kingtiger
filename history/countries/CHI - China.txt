@@ -228,18 +228,18 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_GUOTAO_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = joeism
 	traits = {
 		cornered_fox
 	}
 }
 
 create_country_leader = {
-	name = "Freaky but dumb"
+	name = "Kung Flu Coronavirus"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "GFX_portrait_chi_wang_jingwei"
+	picture = "corona.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = collinism
 	traits = {
 		#
 	}
