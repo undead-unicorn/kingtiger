@@ -29,12 +29,6 @@ music = {
 				original_tag = SPR
 			}
 		}
-		modifier = {
-			factor = 10
-
-			NOT = { has_completed_focus = SPA_a_great_spain }
-			NOT = { has_completed_focus = SPR_the_popular_front }
-		}
 	}
 }
 

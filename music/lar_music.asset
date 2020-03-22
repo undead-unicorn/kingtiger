@@ -1,6 +1,6 @@
 music = {
 	name = "a_storm_coming"
-	file = "a_storm_coming.ogg"
+	file = "pinochet.ogg"
 	volume = 0.6
 }
 
@@ -12,7 +12,7 @@ music = {
 
 music = {
 	name = "imperterrita"
-	file = "imperterrita.ogg"
+	file = "doomgladiator.ogg"
 	volume = 0.6
 }
 
