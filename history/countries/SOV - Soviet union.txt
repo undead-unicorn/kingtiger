@@ -314,6 +314,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "The Man In Your Dreams"
+	desc = "POLITICS_IVAN_KONEV_DESC"
+	picture = "dream_man.dds"
+	expire = "1953.3.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
 add_namespace = {
 	name = "unit_leader_sov"
 	type = unit_leader
