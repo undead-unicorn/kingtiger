@@ -122,18 +122,20 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 98
-	communism = 2
+	neutrality = 90
+	fascism = 5
+	communism = 3
+	democratic = 2
 }
 
 create_country_leader = {
-	name = "Freddy Fazbear"
+	name = "Augusto Pinochet"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "freddy.dds"
+	picture = "pinochet.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
+		generallissimo conservative_nationalist anti_communist
 	}
 }
 
