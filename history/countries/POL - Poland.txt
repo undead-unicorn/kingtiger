@@ -199,7 +199,7 @@ set_popularities = {
 create_country_leader = {
 	name = "DragonGoddess"
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	picture = "mariam.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -210,7 +210,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Dragongoddess"
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
+	picture = "mariam.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
@@ -219,9 +219,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Władysław Gomułka"
+	name = "Mckayla Daszkiewicz"
 	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	picture = "mckayla.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
@@ -230,9 +230,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Wincenty Witos"
+	name = "MariamGoddess"
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
+	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -241,9 +241,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Bolesław Piasecki"
+	name = "Allah Goddess"
 	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
+	picture = "allah.dds"
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
