@@ -1820,9 +1820,9 @@ country_event = {
 				}
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Andrey Vlasov"
-					desc = "POLITICS_ANDREY_VLASOV_DESC"
-					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+					name = "The Man In Your Dreams"
+					desc = "POLITICS_IVAN_KONEV_DESC"
+					picture = "dream_man.dds"
 					expire = "1965.1.1"
 					ideology = moderatism
 					traits = {
@@ -1866,9 +1866,9 @@ country_event = {
 				}
 				kill_country_leader = yes
 				create_country_leader = {
-					name = "Andrey Vlasov"
-					desc = "POLITICS_ANDREY_VLASOV_DESC"
-					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
+					name = "The Man In Your Dreams"
+					desc = "POLITICS_IVAN_KONEV_DESC"
+					picture = "dream_man.dds"
 					expire = "1965.1.1"
 					ideology = moderatism
 					traits = {
