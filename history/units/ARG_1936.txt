@@ -48,7 +48,7 @@ units = {
 				name_order = 1
 		}
 		location = 12364 # Buenos Aires
-		division_template = "División de Infanteria"
+		division_template = "Dr. Kleiners"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -59,7 +59,7 @@ units = {
 				name_order = 2
 		}
 		location = 10953 # Southern Argentina
-		division_template = "División de Infanteria"
+		division_template = "Dr. Kleiners"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -70,7 +70,7 @@ units = {
 				name_order = 3
 		}
 		location = 7500 # Parana
-		division_template = "División de Infanteria"
+		division_template = "Dr. Kleiners"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -81,7 +81,7 @@ units = {
 				name_order = 4
 		}
 		location = 12942 # Cordoba
-		division_template = "División de Infanteria"
+		division_template = "Dr. Kleiners"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -92,7 +92,7 @@ units = {
 				name_order = 5
 		}
 		location = 8216 # Salta
-		division_template = "División de Infanteria"
+		division_template = "Dr. Kleiners"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -100,7 +100,7 @@ units = {
 	division= {	
 		name = "División de Caballería"
 		location = 12364 # Buenos Aires
-		division_template = "División de Caballería"
+		division_template = "Combine"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -108,7 +108,7 @@ units = {
 	division= {	
 		name = "Destacamento de Montaña Cuyo"
 		location = 10992 # Mendoza
-		division_template = "Brigada Montaña"
+		division_template = "Garry's Men"
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -116,8 +116,16 @@ units = {
 	division= {	
 		name = "Destacamento de Montaña Norte"
 		location = 8216 # Salta
-		division_template = "Brigada Montaña"
+		division_template = "Garry's Men"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# Elite Infantry
+		name = "Physics Gun"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 1
 		start_equipment_factor = 1
 
 	}
