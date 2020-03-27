@@ -130,16 +130,16 @@ set_country_flag = monroe_doctrine
 
 set_convoys = 120
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1931.11.8"
 	election_frequency = 72
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 12
-	neutrality = 78
+	democratic = 9
+	fascism = 45
+	communism = 37
+	neutrality = 9
 }
 
 create_country_leader = {
@@ -147,7 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
 	picture = "bill.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = oligarchism
 	traits = {
 		#
 	}
@@ -169,9 +169,9 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Roberto María Ortiz"
-		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		name = "Bill Nye the Pizza Pie"
+		desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+		picture = "bill.dds"
 		expire = "1965.1.1"
 		ideology = despotism
 		traits = {
@@ -182,18 +182,18 @@ create_country_leader = {
 
 
 create_country_leader = {
-	name = "Nimo de Anquín"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	name = "Garry's Man"
+	desc = "POLITICS_GARRY_MAN_DESC"
+	picture = "garry_man.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = collinism
 	traits = {
-		#
+		warrior_code anti_democrat
 	}
 }
 
 create_country_leader = {
-	name = "Marcelo T. de Alvear"
+	name = "Father Grigory"
 	desc = "POLITICS_MARCELO_ALVEAR_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
@@ -204,19 +204,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Fanny Jabcovsky"
-	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+	name = "Supreme Crow"
+	desc = "POLITICS_CROW_DESC"
+	picture = "crow.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = joeism
 	traits = {
-		#
+		warrior_code anti_democrat
 	}
 }
 
 create_field_marshal = {
-	name = "Arturo Rawson"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	name = "Bill Nye the Pizza Pie"
+	picture = "bill.dds"
 	traits = { defensive_doctrine }
 	skill = 3
     attack_skill = 4

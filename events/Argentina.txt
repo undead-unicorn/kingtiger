@@ -1,0 +1,47 @@
+###########################
+# Argentinian Events
+###########################
+
+add_namespace = argentina
+
+# Garry's Man vs the Crows
+country_event = {
+    id = argentina.1
+    title = argentina.1.t
+    desc = argentina.1.d
+    picture = GFX_report_event_hindenburg_flames
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = ARG
+        has_government = fascism
+        date > 1936.8.4
+        has_country_leader = {
+            name = "Garry's Man"
+            ruling_only = yes
+        }
+    }    
+
+    mean_time_to_happen = {
+        days = 30
+    }
+
+    option = {
+        name = argentina.1.a
+        start_civil_war = {
+			ideology = communism
+			size = 0.5
+	}
+    }
+    option = {
+	name = argentina.1.b
+	set_politics = {
+		ruling_party = communism
+		elections_allowed = no }
+	start_civil_war = {
+			ideology = fascism
+			size = 0.5
+	}   
+    }
+    }
