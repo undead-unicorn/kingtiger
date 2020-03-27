@@ -1,4 +1,4 @@
-﻿capital = 671 #Hanoi
+capital = 671 #Hanoi
 
 oob = "VIN_1936"
 
@@ -83,7 +83,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Steven N Nguyen" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
+	picture = "steven.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology 
 	traits = {
@@ -92,9 +92,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Steven Chi Minh" 
+	name = "Baby Steven" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
+	picture = "babysn.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
@@ -103,9 +103,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Vietnamese?"
+	name = "Vietnam Man"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "vietnamese.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -114,9 +114,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nguyen Tuong Tam"
+	name = "Shadow Steven"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	picture = "shadow.dds"
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {
@@ -124,5 +124,16 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Steven Sister"
+	picture = "sister.dds"
+	traits = { old_guard inflexible_strategist media_personality thorough_planner }
+	skill = 3
+
+	attack_skill = 2
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 4
+}
 
 
