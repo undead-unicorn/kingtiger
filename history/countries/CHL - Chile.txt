@@ -129,9 +129,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Augusto Pinochet"
+	name = "Bill Nye The Pizza Pie"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
-	picture = "pinochet.dds"
+	picture = "nye.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -152,9 +152,9 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Freddy Fazbear"
+		name = "Bill Nye The Pizza Pie"
 		desc = "POLITICS_PEDRO_AGUIRRE_CERDA_DESC"
-		picture = "freddy.dds"
+		picture = "nye.dds"
 		expire = "1965.1.1"
 		ideology = despotism
 		traits = {
