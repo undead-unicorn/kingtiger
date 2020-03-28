@@ -35,9 +35,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Kang"
+	name = "Twomad"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	picture = "twomad.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -57,9 +57,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Yi Un"
+	name = "Kim Jong Il"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	picture = "jongil.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
