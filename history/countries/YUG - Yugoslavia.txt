@@ -245,7 +245,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "SCP 096"
+	name = "SCP-096"
 	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
 	picture = "SCP_096.tga"
 	expire = "1965.1.1"
@@ -368,7 +368,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "SCP 196"
+	name = "SCP-196"
 	picture = "SCP_196.tga"
 	traits = { old_guard substance_abuser reckless harsh_leader }
 	skill = 1
