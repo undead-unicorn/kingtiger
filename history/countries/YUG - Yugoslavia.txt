@@ -245,19 +245,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Murr"
+	name = "SCP 096"
 	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+	picture = "SCP_096.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = joeism
 	traits = {
 		#
 	}
 }
 
 create_corps_commander = {
-	name = "Vladimir Čukavac"
-	gfx = GFX_Portrait_yugoslavia_vladimir_cukavac
+	name = "Alien Head"
+	picture = "alien_head.tga"
 	traits = { trickster  }
 	skill = 3
 
@@ -268,8 +268,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Gošnjak"
-	gfx = GFX_Portrait_yugoslavia_ivan_gosnjak
+	name = "Based"
+	picture = "based.tga"
 	traits = { urban_assault_specialist }
 	skill = 3
 	
@@ -280,8 +280,8 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Danilo Kalafatović"
-	gfx = GFX_Portrait_yugoslavia_danilo_kalafatovic
+	name = "Based Cock"
+	picture = "based_cock.tga"
 	traits = {  }
 	skill = 2
 	attack_skill = 2
@@ -291,8 +291,8 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Milutin Nedić"
-	gfx = GFX_Portrait_yugoslavia_milutin_nedic
+	name = "Coronavirus"
+	picture = "coronavirus.tga"
 	traits = { thorough_planner }
 	skill = 3	
 	attack_skill = 3
@@ -302,8 +302,8 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Petar Kosić"
-	gfx = GFX_Portrait_yugoslavia_petar_kosic
+	name = "Elongated Head"
+	picture = "elongated_head.tga"
 	traits = {  }
 	skill = 2
 	attack_skill = 1
@@ -312,9 +312,75 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
+create_corps_commander = {
+	name = "FaZe Banks"
+	picture = "faZe_banks.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Gamer"
+	picture = "gamer.tga"
+	traits = { brilliant_strategist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lard"
+	picture = "lard.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Maths Teacher"
+	picture = "maths_teacher.tga"
+	traits = { inflexible_strategist }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Sad Man"
+	picture = "sad_man.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "SCP 196"
+	picture = "SCP_196.tga"
+	traits = { old_guard substance_abuser reckless harsh_leader }
+	skill = 1
+	attack_skill = 7
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
 create_navy_leader = {
-	name = "Marijan Polić"
-	gfx = GFX_Portrait_yugoslavia_marijan_polic
+	name = "Old Man Hoodie"
+	picture = "old_man_hoodie.tga"
 	traits = { old_guard_navy navy_career_officer }
 	skill = 2
 	attack_skill = 2
@@ -323,6 +389,16 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
+create_navy_leader = {
+	name = "Justin Roiland"
+	picture = "justin_roiland.tga"
+	traits = { navy_career_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
 ### VARIANTS ###
 # 1936 Start #
 if = {
