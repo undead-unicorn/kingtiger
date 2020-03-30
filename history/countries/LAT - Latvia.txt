@@ -105,10 +105,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
+	democratic = 15
 	fascism = 15
 	communism = 15
-	neutrality = 40
+	neutrality = 55
 }
 
 # probably needs some adjustment before nazi occupation in 1940
@@ -117,9 +117,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Sean Stephenson"
+	name = "Finn"
 	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "sean.dds"
+	picture = "finn.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
