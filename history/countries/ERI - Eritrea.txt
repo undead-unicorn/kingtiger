@@ -54,14 +54,25 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 55
-	fascism = 15
+	democratic = 15
+	fascism = 55
 	communism = 5
 	neutrality = 25
+}
+
+create_country_leader = {
+	name = "Sexy Hitler"
+	desc = ""
+	picture = "sexler.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
 }
