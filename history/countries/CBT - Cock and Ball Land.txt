@@ -155,16 +155,16 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = fascism
 		last_election = "1936.9.20"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 85
+		democratic = 1
 		neutrality = 10
 		communism = 4
-		fascism = 1
+		fascism = 85
 	}
 }
 
@@ -181,7 +181,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		#
+		ballcrusher
 	}
 }
 
@@ -192,7 +192,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		crip
+		anti_democrat
 	}
 }
 
@@ -203,18 +204,18 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		#
+		dictator
 	}
 }
 
 create_country_leader = {
-	name = "Democratic CBT Man"
+	name = "Michael Bloomberg"
 	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = "mike.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = conservatism
 	traits = {
-		#
+		face_licker
 	}
 }
 
@@ -274,7 +275,7 @@ if = {
 	limit = { has_dlc = "Man the Guns" }
 	# Submarines #
 	create_equipment_variant = {
-		name = "Hajen Class"					# represents Hajen and Bävern classes	
+		name = "Hajen Class"					# represents Hajen and BÃ¤vern classes	
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -310,7 +311,7 @@ if = {
 	}
 	# Destroyers #
 	create_equipment_variant = {
-		name = "Örnen Class"					# torpedo boats		
+		name = "Ã–rnen Class"					# torpedo boats		
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -327,7 +328,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ehrensköld Class"				# represents Ehrensköld	and Klas Horn classes
+		name = "EhrenskÃ¶ld Class"				# represents EhrenskÃ¶ld	and Klas Horn classes
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -361,7 +362,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Göteborg Class"	
+		name = "GÃ¶teborg Class"	
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -397,7 +398,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Äran Class"				
+		name = "Ã„ran Class"				
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -494,7 +495,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Sjölejonet Class"				
+			name = "SjÃ¶lejonet Class"				
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0
