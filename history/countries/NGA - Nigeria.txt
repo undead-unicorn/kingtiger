@@ -64,3 +64,14 @@ set_popularities = {
 	communism = 5
 	neutrality = 50
 }
+
+create_country_leader = {
+	
+	name = "Swinging Monkey"
+	picture = "swing.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		noob
+	}
+}
