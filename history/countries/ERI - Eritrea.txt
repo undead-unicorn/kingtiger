@@ -61,9 +61,9 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 15
-	fascism = 55
+	fascism = 25
 	communism = 5
-	neutrality = 25
+	neutrality = 55
 }
 
 create_country_leader = {
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = ""
 	picture = "sexler.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
