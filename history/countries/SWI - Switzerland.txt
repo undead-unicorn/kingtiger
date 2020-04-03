@@ -95,13 +95,13 @@ add_ideas = {
 set_stability = 0.85
 
 create_country_leader = {
-	name = "Richard List"
+	name = "Reddit Council"
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "list.dds"
+	picture = "reddit.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = socialism
 	traits = {
-		#
+		face_licker
 	}
 }
 
@@ -117,20 +117,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Dr. Max Leo Keller"
+	name = "Pepe"
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
+	picture = "pepe.dds" 
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		#
+		dictator
 	}
 }
 
 create_country_leader = {
-	name = "Fritz Platten"
+	name = "Planon"
 	desc = "POLITICS_FRITZ_PLATTEN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "planon.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -139,7 +139,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Henri Guisan"
+	name = "Keanu Reeves Wholesome"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = {  winter_specialist }
 	skill = 3
