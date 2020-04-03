@@ -122,3 +122,15 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+		name = "Chaeyoung"
+		portrait_path = "gfx/leaders/LIT/chae.dds"
+		traits = { politically_connected }
+		skill = 3
+	
+		attack_skill = 4
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 3
+	}
