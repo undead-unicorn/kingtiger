@@ -67,11 +67,11 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Swinging Monkey"
-	picture = "swing.dds"
+	name = "Harambe"
+	picture = "harambe.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		noob
+		dictator
 	}
 }
