@@ -90,11 +90,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Pedro P. Baguisa"
+	name = "Tito Dick 'Dickman'"
 	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	picture = "tito.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
