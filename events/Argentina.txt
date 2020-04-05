@@ -29,21 +29,45 @@ country_event = {
 
     option = {
         name = argentina.2.a
-		ai_chance = { base = 80 }
+		ai_chance = { base = 90 }
         start_civil_war = {
 			ideology = communism
-			size = 0.5
+			size = 0.6
+	}
+	hidden_effect = {
+	create_country_leader = {
+			name = "Supreme Crow"
+			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+			picture = "crow.dds"
+			expire = "1965.1.1"
+			ideology = joeism
+			traits = {
+				anti_democrat
+			}
+		}
 	}
     }
     option = {
 	name = argentina.2.b
-		ai_chance = { base = 20 }   
+		ai_chance = { base = 10 }   
 	set_politics = {
 		ruling_party = communism
 		elections_allowed = no }
 	start_civil_war = {
 			ideology = fascism
-			size = 0.5
+			size = 0.6
+	}
+	hidden_effect = {
+	create_country_leader = {
+			name = "Garry's Man"
+			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+			picture = "garry_man.dds"
+			expire = "1965.1.1"
+			ideology = collinism
+			traits = {
+				anti_democrat
+			}
+		}
 	}
     }
     }

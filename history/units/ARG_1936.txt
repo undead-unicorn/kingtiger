@@ -129,6 +129,46 @@ units = {
 		start_equipment_factor = 1
 
 	}
+	division= {	# generic extra troops
+		name = "Crowbar"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Rocket Launcher"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Crossbow"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "TF2 Volunteers"
+		location = 8216 # Buenos Aires
+		division_template = "Garry's Men"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+
+	}
+	division= {	# generic extra troops
+		name = "Pill Pack"
+		location = 10953 # Buenos Aires
+		division_template = "Combine"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
 }
 
 air_wings = {
