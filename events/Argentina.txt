@@ -32,7 +32,8 @@ country_event = {
 		ai_chance = { base = 90 }
         start_civil_war = {
 			ideology = communism
-			size = 0.6
+			size = 0.5
+			states = { 508 509 511 512 }
 	}
 	hidden_effect = {
 	create_country_leader = {
@@ -55,7 +56,8 @@ country_event = {
 		elections_allowed = no }
 	start_civil_war = {
 			ideology = fascism
-			size = 0.6
+			size = 0.5
+			states = { 508 509 511 512 }
 	}
 	hidden_effect = {
 	create_country_leader = {
