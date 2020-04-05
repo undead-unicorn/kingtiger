@@ -1,0 +1,97 @@
+###########################
+# Swiss Events
+###########################
+
+add_namespace = switzerland
+
+# 4chan Uprising
+country_event = {
+    id = switzerland.1
+    title = switzerland.1.t
+    desc = switzerland.1.d
+    picture = GFX_report_event_hindenburg_flames
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = SWI
+        has_government = democratic
+        date > 1936.3.1
+        has_country_leader = {
+            name = "Reddit Council"
+            ruling_only = yes
+        }
+    }    
+
+    mean_time_to_happen = {
+        days = 10
+    }
+
+    option = {
+        name = switzerland.1.a
+		ai_chance = { base = 50 }
+        start_civil_war = {
+			ideology = fascism
+			size = 0.5
+                        states = { 151 797 }
+	}
+    }
+    option = {
+	name = switzerland.1.b
+		ai_chance = { base = 50 }   
+	set_politics = {
+		ruling_party = fascism
+		elections_allowed = no }
+	start_civil_war = {
+			ideology = democratic
+			size = 0.5
+                        states = { 3 }
+	}
+    }
+}
+
+# Leftypol Coup
+country_event = {
+    id = switzerland.2
+    title = switzerland.2.t
+    desc = switzerland.2.d
+    picture = GFX_report_event_hindenburg_flames
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = SWI
+        has_government = fascism
+        date > 1936.3.7
+        has_country_leader = {
+            name = "Pepe"
+            ruling_only = yes
+        }
+    }    
+
+    mean_time_to_happen = {
+        days = 5
+    }
+
+    option = {
+        name = switzerland.2.a
+		ai_chance = { base = 50 }
+        start_civil_war = {
+			ideology = communism
+			size = 0.5
+                        states = { 797 }
+	}
+    }
+    option = {
+	name = switzerland.2.b
+		ai_chance = { base = 50 }   
+	set_politics = {
+		ruling_party = communism
+		elections_allowed = no }
+	start_civil_war = {
+			ideology = fascism
+			size = 0.5
+                        states = { 151 }
+	}
+    }
+}
