@@ -155,7 +155,7 @@ units = {
 	}
 	division= {	# generic extra troops
 		name = "TF2 Volunteers"
-		location = 8216 # Buenos Aires
+		location = 8216
 		division_template = "Garry's Men"
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.9
@@ -163,9 +163,113 @@ units = {
 	}
 	division= {	# generic extra troops
 		name = "Pill Pack"
-		location = 10953 # Buenos Aires
+		location = 10953
 		division_template = "Combine"
 		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Vortigaunt Legion"
+		location = 10953
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.5
+
+	}
+	division= {	# generic extra troops
+		name = "Half-Life: Alyx"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Andrew Havredakis Clone Army"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "n00bs"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Terrorists"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Physics Gun II"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Gravity Gun"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Zombies"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+
+	}
+	division= {	# generic extra troops
+		name = "Antlions"
+		location = 12364 # Buenos Aires
+		division_template = "Combine"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Counterstrike Volunteers"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "ASMR Gang"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "Boomers"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	division= {	# generic extra troops
+		name = "L4D Volunteers"
+		location = 12364 # Buenos Aires
+		division_template = "Dr. Kleiners"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1
 
 	}
