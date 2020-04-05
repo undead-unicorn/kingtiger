@@ -27,26 +27,25 @@ country_event = {
         days = 10
     }
 
-    option = {
+  option = {
         name = switzerland.1.a
-		ai_chance = { base = 50 }
+        ai_chance = { base = 50 }
         start_civil_war = {
-			ideology = fascism
-			size = 0.5
+            ruling_party = democratic
+            ideology = fascism
+            size = 0.5
                         states = { 151 797 }
-	}
+    }
     }
     option = {
-	name = switzerland.1.b
-		ai_chance = { base = 50 }   
-	set_politics = {
-		ruling_party = fascism
-		elections_allowed = no }
-	start_civil_war = {
-			ideology = democratic
-			size = 0.5
+    name = switzerland.1.b
+        ai_chance = { base = 50 }   
+    start_civil_war = {
+            ruling_party = fascism
+            ideology = democratic
+            size = 0.5
                         states = { 3 }
-	}
+    }
     }
 }
 
@@ -60,7 +59,18 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
+	OR = {
         tag = SWI
+	tag = D01
+	tag = D02
+	tag = D03
+	tag = D04
+	tag = D05
+	tag = D06
+	tag = D07
+	tag = D08
+	tag = D09
+	}
         has_government = fascism
         date > 1936.3.7
         has_country_leader = {
@@ -77,6 +87,7 @@ country_event = {
         name = switzerland.2.a
 		ai_chance = { base = 50 }
         start_civil_war = {
+			ruling_party = fascism
 			ideology = communism
 			size = 0.5
                         states = { 797 }
@@ -85,10 +96,8 @@ country_event = {
     option = {
 	name = switzerland.2.b
 		ai_chance = { base = 50 }   
-	set_politics = {
-		ruling_party = communism
-		elections_allowed = no }
 	start_civil_war = {
+			ruling_party = communism
 			ideology = fascism
 			size = 0.5
                         states = { 151 }
