@@ -144,6 +144,31 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+		name = "Spooky"
+		picture = "spooky.tga"
+		traits = { aggressive_assaulter brilliant_strategist }
+		skill = 3
+	
+		attack_skill = 3
+		defense_skill = 2
+		planning_skill = 2
+		logistics_skill = 2
+	}
+
+
+create_corps_commander = {
+		name = "Fucking Nermal"
+		picture = "nermal.tga"
+		traits = { politically_connected war_hero substance_abuser }
+		skill = 1
+	
+		attack_skill = 2
+		defense_skill = 1
+		planning_skill = 1
+		logistics_skill = 2
+	}
+
 
 ### VARIANTS ###
 # 1939 Start #
