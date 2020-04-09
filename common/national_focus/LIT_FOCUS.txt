@@ -51,6 +51,7 @@ focus_tree = {
 			add_timed_idea = {
 				idea = internationalism
 				days = 1095
+				}
 			add_popularity = {
 			        ideology = communism
 				popularity = 0.6
@@ -58,7 +59,6 @@ focus_tree = {
 			}
 		}
 
-	}
 	focus = {
 		id = civillian
 		icon = GFX_goal_generic_construct_civ_factory
