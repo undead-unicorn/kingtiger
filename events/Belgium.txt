@@ -30,7 +30,7 @@ country_event = {
     option = {
         name = belgium.1.a
         news_event = { id = news.998 }
-        kill_country_leader = yes
+        retire_country_leader = yes
         create_country_leader = {
             name = "Dr. Mitzel"
             desc = "POLITICS_WINSTON_CHURCHILL_DESC"
