@@ -667,13 +667,15 @@ focus_tree = {
 		cost = 10.00
 		prequisite = {
 			focus = legacy
+			focus = anime
+			focus = balls
 		}
 		x = 0
 		y = 1
 		relative_position_id = legacy
 
 		completion_reward = { 
-		   create_wargoal={ 
+		   create_wargoal = { 
 		      type= annex_everything 
 		      target= EST
 		     }  
