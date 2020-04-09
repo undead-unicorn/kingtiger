@@ -76,9 +76,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Joseph Poindexter"
+	name = "Founder of Old Nigs"
 	desc = ""
-	picture = "gfx/leaders/USA/Portrait_USA_Generic_land_1.dds"
+	picture = "poindexter.dds"
 	ideology = liberalism
 	traits = {
 		#
