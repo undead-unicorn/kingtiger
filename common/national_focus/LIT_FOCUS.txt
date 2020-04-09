@@ -27,6 +27,7 @@ focus_tree = {
 			add_timed_idea = {
 				idea = nationalism
 				days = 1095
+				}
 			add_popularity = {
 			        ideology = fascism
 				popularity = 0.6
@@ -34,7 +35,6 @@ focus_tree = {
 			}
 		}
 
-	}
 	focus = {
 		id = encourage_cbt
 		icon = GFX_focus_eng_liberate_the_home_of_marx
@@ -656,4 +656,21 @@ focus_tree = {
            add_ideas = ideological_fanaticism_focus
 	}
 	
-}
+	}
+	focus = {
+		id = lit_vore
+		icon = GFX_goal_MAF_Graveyard
+		cost = 10.00
+		prequisite = {
+			focus = legacy
+		}
+		x = 0
+		y = 1
+		relative_position_id = legacy
+
+		completion_reward = { 
+		create_wargoal = { 
+		type= annex_everything 
+		target = EST }
+		}
+		
