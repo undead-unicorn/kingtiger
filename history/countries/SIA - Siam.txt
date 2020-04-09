@@ -125,9 +125,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Chris Chan"
+	name = "Rob Blue"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
-	picture = "chris.dds"
+	picture = "rob.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -147,9 +147,9 @@ create_country_leader = {
 	}
 
 	create_country_leader = {
-		name = "Chris Chan"
+		name = "Rob Blue"
 		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-		picture = "chris.dds"
+		picture = "rob.dds"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
