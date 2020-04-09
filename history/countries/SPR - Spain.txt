@@ -375,13 +375,13 @@ if = {
 		has_dlc = "La Resistance"
 	}
 	create_country_leader = {
-		name = "President Collin Joe"
-		desc = "POLITICS_MANUEL_AZANA_DESC"
-		picture = "collin.dds"
+		name = "Collin Joe"
+		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
+		picture = "collinist.tga"
 		expire = "1965.1.1"
 		ideology = conservatism
 		traits = {
-			figurehead_president
+
 		}
 	}
 	
