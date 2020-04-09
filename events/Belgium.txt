@@ -38,7 +38,7 @@ country_event = {
             expire = "1965.1.1"
             ideology = socialism
 	    traits = {
-	    ballcrusher
+	    headstrong
         }
     }
 	set_cosmetic_tag = BEL_eastyorkhigh
