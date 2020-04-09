@@ -13104,6 +13104,22 @@ news_event = {
 	}
 }
 
+# Mitzel Coup
+news_event = {
+	id = news.998
+	title = news.998.t
+	desc = news.998.desc
+	picture = GFX_news_event_african_soldiers
+
+	major = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = news.998.a
+	}
+}
+
 # Gary Coleman dies
 news_event = {
 	id = news.999
