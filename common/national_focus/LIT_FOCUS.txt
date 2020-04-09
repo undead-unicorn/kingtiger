@@ -30,7 +30,7 @@ focus_tree = {
 				}
 			add_popularity = {
 			        ideology = fascism
-				popularity = 0.6
+				popularity = 0.3
 			        }
 			}
 		}
@@ -54,7 +54,7 @@ focus_tree = {
 				}
 			add_popularity = {
 			        ideology = communism
-				popularity = 0.6
+				popularity = 0.3
 			        }
 			}
 		}
@@ -526,10 +526,14 @@ focus_tree = {
 		y = 5
 
 		completion_reward = {
-		   transfer_state = 12
-		   transfer_state = 190
+		   completion_reward = { 
+		   create_wargoal={ 
+		      type= annex_everything 
+		      target= LAT
 		   add_state_core = 12
 		   add_state_core = 190
+		        }
+		    }
 		}   
 
 	}
@@ -669,8 +673,14 @@ focus_tree = {
 		relative_position_id = legacy
 
 		completion_reward = { 
-		create_wargoal = { 
-		type= annex_everything 
-		target = EST }
-		}
+		   create_wargoal={ 
+		      type= annex_everything 
+		      target= EST
+		     }  
+		}	
+	  }
+	
+}
+	
+	
 		
