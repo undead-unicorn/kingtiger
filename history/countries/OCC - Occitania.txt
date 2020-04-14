@@ -181,3 +181,30 @@ set_popularities = {
 	communism = 15
 	neutrality = 20
 }
+create_country_leader = {
+	name = "Secret John"
+	picture = "gfx/leaders/FRA/GFX_portrait_fra_maurice_thorez.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+}
+
+create_country_leader = {
+	name = "Secret John"
+	picture = "gfx/leaders/FRA/messy_hair.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+}
+
+create_country_leader = {
+	name = "Secret John"
+	picture = "gfx/leaders/FRA/flannel_john.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+}
+
+create_country_leader = {
+	name = "Secret John"
+	picture = "gfx/leaders/FRA/fat_john.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+}
