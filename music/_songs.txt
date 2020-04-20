@@ -111,6 +111,19 @@ music = {
 }
 
 music = {
+	song = "allies_peace_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
 	song = "axis_peace_1"
 	
 	chance = {
