@@ -454,6 +454,28 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Royal Engineer Regiment"
+	picture = "royal_engineer.tga"
+	traits = { trait_cautious trait_engineer fortress_buster }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Commando Regiment"
+	picture = "commando.tga"
+	traits = { harsh_leader commando paratrooper ambusher scavenger trickster }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Neil Ritchie"
 	picture = "Portrait_Britain_Neil_Ritchie.dds"
 	traits = { inflexible_strategist armor_officer politically_connected  }
