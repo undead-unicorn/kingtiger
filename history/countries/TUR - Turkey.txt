@@ -226,6 +226,17 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Mat'ew Mustafa"
+	picture = "matew_mustafa.tga"
+	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
 create_corps_commander = {
 	name = "Cemil Cahit Toydemir"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
