@@ -406,6 +406,19 @@ music = {
 	}	
 }
 
+music = {
+	song = "comintern_war_5"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
 ##RAM RANCH THE REVENGE-- very low chance of playing
 
 music = {
