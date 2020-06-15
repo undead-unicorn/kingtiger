@@ -55,23 +55,23 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1932.2.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 2
+	fascism = 98
+	democratic = 2
 }
 
 create_country_leader = {
-	name = "Alexandria Ocasio-Cortez"
+	name = "Dineon"
 	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-	picture = "aoc.dds"
+	picture = "dineon.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -79,23 +79,23 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = fascism
 		last_election = "1936.2.9"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 
 	set_popularities = {
-		democratic = 95
+		fascism = 95
 		communism = 5
 	}
 
 	create_country_leader = {
-		name = "Alexandria Ocasio-Cortez"
+		name = "Dineon"
 		desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
-		picture = "aoc.dds"
+		picture = "dineon.dds"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = fascism_ideology
 		traits = {
 			#
 		}
