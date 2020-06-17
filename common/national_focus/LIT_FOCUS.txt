@@ -665,8 +665,6 @@ focus_tree = {
 		cost = 10.00
 		prequisite = {
 			focus = legacy
-			focus = anime
-			focus = balls
 		}
 		x = 0
 		y = 1
