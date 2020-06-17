@@ -526,15 +526,13 @@ focus_tree = {
 		y = 5
 
 		completion_reward = {
-		   completion_reward = { 
-		   create_wargoal = { 
-		      type= annex_everything 
-		      target= LAT
-		   add_state_core = 12
-		   add_state_core = 190
+		    add_state_core = 12
+		    add_state_core = 190
+		    create_wargoal = { 
+		        type= annex_everything 
+		        target= LAT
 		        }
-		    }
-		}   
+		    }   
 
 	}
 	focus = {
@@ -675,11 +673,12 @@ focus_tree = {
 		relative_position_id = legacy
 
 		completion_reward = { 
-		   create_wargoal = { 
-		      type= annex_everything 
-		      target= EST
-		     }  
-		}	
+		    create_wargoal = { 
+		        type= annex_everything 
+		        target= EST
+				}
+			}	
+		    	
 	  }
 	
 }
