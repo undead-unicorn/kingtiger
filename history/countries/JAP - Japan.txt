@@ -320,9 +320,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kyuichi Tokuda"
+	name = "Freaky's Tablet"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
+	picture = "freakytablet.dds"
 	expire = "1989.1.1"
 	ideology = marxism
 	traits = {
