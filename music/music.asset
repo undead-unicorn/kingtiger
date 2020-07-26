@@ -57,7 +57,11 @@ music = {
 	file = "doomthree.ogg"
 	volume = 0.65
 }
-
+music = {
+	name = "general_war_6"
+	file = "storyofundertale.ogg"
+	volume = 0.65
+}
 
 # Allies Peace:
 music = {
