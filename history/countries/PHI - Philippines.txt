@@ -73,15 +73,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 82
-	fascism = 9
-	communism = 9
+	democratic = 75
+	fascism = 15
+	communism = 10
 }
 
 create_country_leader = {
-	name = "Judiel Christian Philippine"
+	name = "Ubaldo Mantanguihan"
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+	picture = "ubaldo.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -90,12 +90,24 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Tito Dick 'Dickman'"
+	name = "Judiel Christian Philippine"
 	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "tito.dds"
+	picture = "maple.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Comrade Maple"
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "eviljudiel.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
