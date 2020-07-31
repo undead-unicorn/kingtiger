@@ -144,7 +144,7 @@ if = {
 	create_country_leader = {
 		name = "Peridorky"
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
-		picture = "peridorky.dds"
+		picture = "dorky.dds"
 		expire = "1965.1.1"
 		ideology = oligarchism
 		traits = {
@@ -157,7 +157,7 @@ if = {
 		create_country_leader = {
 			name = "Peridorky"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
-			picture = "peridorky.dds"
+			picture = "dorky.dds"
 			expire = "1965.1.1"
 			ideology = despotism
 		}
@@ -183,7 +183,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-			name = "Peridorky"
+			name = "Peridorky (pedo)"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "peridorky.dds"
 			expire = "1965.1.1"
