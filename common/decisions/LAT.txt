@@ -1,0 +1,27 @@
+political_actions = {
+
+	LAT_bugs = {
+
+		allowed = {
+			original_tag = LAT
+		}
+
+		available = {
+			has_stability > 0.8
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			always = yes
+		}
+		fire_only_once = yes
+		complete_effect = {
+	        add_manpower = -10000
+	        add_stability = 0.15	
+	    }
+	} 
+}	           
+                        
