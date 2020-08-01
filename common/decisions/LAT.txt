@@ -7,7 +7,7 @@ political_actions = {
 		}
 
 		available = {
-			has_stability > 0.8
+			has_stability < 0.8
 		}
 
 		ai_will_do = {
@@ -17,9 +17,10 @@ political_actions = {
 		visible = {
 			always = yes
 		}
+		cost = 50
 		fire_only_once = yes
 		complete_effect = {
-	        add_manpower = -10000
+	        add_manpower = -5000
 	        add_stability = 0.15	
 	    }
 	} 

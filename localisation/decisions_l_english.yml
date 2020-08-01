@@ -16,3 +16,5 @@
  ADD_DAYS_TO_MISSION:0 "Add $DAYS|H$ days to Mission $MISSION|H$"
  REMOVE_DAYS_TO_MISSION:0 "Remove $DAYS|H$ days from Mission $MISSION|H$"
  CLICK_TO_TOGGLE_ALL_CATEGORY_DECISION_TRACKING:0 "§GClick§! to toggle notification status for all decisions under this category."
+ LAT_bugs:0 "Remove bugs"
+ LAT_bugs_desc:0 "Even though we all love having bugs, having a country that doesn't have a lice infestation would be good for us."
