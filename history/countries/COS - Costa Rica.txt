@@ -62,8 +62,8 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 98
-	democratic = 2
+	fascism = 75
+	democratic = 25
 }
 
 create_country_leader = {
@@ -72,6 +72,17 @@ create_country_leader = {
 	picture = "dineon.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Xec_555"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "xec.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
 	traits = {
 		#
 	}
