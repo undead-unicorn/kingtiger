@@ -47,9 +47,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejčí"
+	name = "Scatman John"
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
-	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
+	picture = "scatman.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
