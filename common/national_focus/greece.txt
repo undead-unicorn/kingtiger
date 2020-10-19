@@ -8,6 +8,7 @@ focus_tree = {
 		modifier = {
 			add = 10
 			tag = GRE
+			NOT = { has_dlc = "Battle for the Bosporus" }
 		}
 	}
 
