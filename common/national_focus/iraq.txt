@@ -687,7 +687,7 @@ focus_tree = {
 
 		completion_reward = {
 		    PER = {
-		        add_manpower = -200000
+		        add_manpower = -600000
 		    }
 		}  
 
